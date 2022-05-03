@@ -1,0 +1,101 @@
+---
+sidebar: sidebar 
+permalink: use/task-manage-fsx-volumes.html 
+keywords: fsx for ontap, fsx, aws, delete volumes, delete nfs volumes, delete cifs volumes, tiering policy, mount path, get mount path, mount volume, delete volumes, snapshots, edit volume, clone volume, clone 
+summary: 您可以使用ONTAP Cloud Manager來管理Volume、複製和快照、以及變更FSXfor Sfor Sfor的分層原則。 
+---
+= 管理Amazon FSX ONTAP for Sf.的Volume
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用ONTAP Cloud Manager來管理Volume、複製和快照、以及變更FSXfor Sfor Sfor的分層原則。
+
+
+
+== 編輯Volume
+
+建立磁碟區之後、您可以隨時加以修改。
+
+.步驟
+. 開啟工作環境。
+. 開啟Volume功能表、然後選取*編輯*。
++
+.. 對於NFS、您可以修改大小和標記。
+.. 對於CIFS、您可以視需要修改共用名稱、使用者、權限及Snapshot原則。
+
+
+. 按一下「 * 套用 * 」。
+
+
+
+
+== 複製磁碟區
+
+建立磁碟區之後、您可以從新的Snapshot建立新的讀寫磁碟區。
+
+.步驟
+. 開啟工作環境。
+. 開啟Volume功能表、然後選取* Clone（複製）*。
+. 輸入複製磁碟區的名稱。
+. 按一下* Clone（複製）*。
+
+
+
+
+== 管理Snapshot複本
+
+Snapshot 複本提供磁碟區的時間點複本。建立Snapshot複本、並將資料還原至新磁碟區。
+
+.步驟
+. 開啟工作環境。
+. 開啟Volume功能表、然後選擇其中一個可用選項來管理Snapshot複本：
++
+** * 建立 Snapshot 複本 *
+** *從Snapshot複本還原*
+
+
+. 依照提示完成選取的動作。
+
+
+
+
+== 變更分層原則
+
+變更磁碟區的分層原則。
+
+.步驟
+. 開啟工作環境。
+. 開啟Volume功能表、然後選取*變更分層原則*。
+. 選取新的磁碟區分層原則、然後按一下*變更*。
+
+
+
+
+== 複寫及同步資料
+
+您可以使用Cloud Manager在儲存環境之間複寫資料。若要設定FSXfor ONTAP Sfor Sfor S供 複寫、請參閱 https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["在系統之間複寫資料"^]。
+
+您可以使用Cloud Sync Cloud Manager中的功能、建立同步關係。若要設定同步關係、請參閱 https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html["建立同步關係"^]。
+
+
+
+== 刪除Volume
+
+刪除不再需要的磁碟區。
+
+您無法使用Cloud Manager刪除先前屬於SnapMirror關係的磁碟區。SnapMirror磁碟區必須使用AWS管理主控台或CLI刪除。
+
+.步驟
+. 開啟工作環境。
+. 開啟Volume功能表、然後選取*刪除*。
+. 輸入工作環境名稱、然後確認您要刪除該磁碟區。從Cloud Manager完全移除磁碟區可能需要一小時的時間。
+
+
+
+NOTE: 如果您嘗試刪除複製的Volume、將會收到錯誤訊息。

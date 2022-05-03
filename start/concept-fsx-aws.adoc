@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: start/concept-fsx-aws.html 
+keywords: amazon fsx for ontap, volumes, aws, access key, secret key 
+summary: Amazon FSX for ONTAP Sfunch是一項完全託管的服務、可讓客戶啟動及執行採用NetApp ONTAP 的作業系統的檔案系統。FSX for ONTAP VMware提供NetApp客戶目前內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。 
+---
+= 深入瞭解Amazon FSX for ONTAP Sf
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["Amazon FSX for ONTAP Sf"^] 是一項完整的託管服務、可讓客戶啟動及執行採用NetApp ONTAP 的一套資訊儲存作業系統的檔案系統。FSX for ONTAP VMware提供NetApp客戶在內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。
+
+
+
+== 功能
+
+* 無需設定或管理儲存設備、軟體或備份。
+* 支援CIFS、NFSv3、NFSv4.x及SMB v2.0 - v3.1.1傳輸協定。
+* 使用不常存取（IA）的可用儲存層、以低成本、幾乎不受限制的方式儲存資料容量。
+* 通過認證、可在對延遲敏感的應用程式（包括Oracle RAC）上執行。
+* 可選擇搭售和隨用隨付定價。
+
+
+
+
+== Cloud Manager 的其他功能
+
+* 使用AWS和Cloud Manager中的Connector、您可以建立及管理磁碟區、複寫資料、並將FSX for ONTAP 效益與NetApp雲端服務整合、例如Data Sense和Cloud Sync Sf4。
+* Cloud Data Sense採用人工智慧（AI）導向技術、可協助您瞭解資料內容、並識別位於FSX中的敏感資料、以利ONTAP 實現效益。 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["深入瞭解"^]。
+* 使用NetApp Cloud Sync 解決方案、您可以將資料移轉自動化、移轉至雲端或內部部署的任何目標。 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["深入瞭解"^]
+
+
+
+
+== 成本
+
+您的FSX for ONTAP Sfor Sfor支援帳戶由AWS維護、而非由Cloud Manager維護。 https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["Amazon FSX for ONTAP Sf入門 指南"^]
+
+使用AWS中的Connector以及Cloud Sync 選用的資料服務（例如、支援功能和Data Sense）、需要額外的成本。
+
+
+
+== 支援的地區
+
+https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/["檢視支援的Amazon地區。"^]
+
+
+
+== 取得協助
+
+Amazon FSX ONTAP for Sf1是AWS的第一方解決方案。如有任何疑問或技術支援問題、請使用AWS FSX檔案系統、基礎架構或任何使用此服務的AWS解決方案、使用AWS主控台的Support Center開啟AWS的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。
+
+對於Cloud Manager或Cloud Manager微服務的一般問題、您可以從線上Cloud Manager聊天開始。
+
+如需Cloud Manager或內部微服務專屬的技術支援問題、您可以使用Cloud Manager帳戶層級序號來開啟NetApp支援服務單。您需要註冊Cloud Manager序號、才能啟動支援。
+
+
+
+== 限制
+
+* Cloud Manager只能從內部部署或Cloud Volumes ONTAP 從功能複製資料到ONTAP 功能複製功能以供參考的FSX。
+* 此時、您可以使用ONTAP 支援的CLI、ONTAP 介紹API或Cloud Manager API來建立iSCSI磁碟區。
+

@@ -1,0 +1,83 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: 瞭解Amazon FSX for ONTAP Sf2的新功能。 
+---
+= Amazon FSX for ONTAP Sfor Sf2的新功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+瞭解Amazon FSX for ONTAP Sf2的新功能。
+
+
+
+== 2022年2月27日
+
+
+
+=== 承擔IAM角色
+
+當您建立FSXfor ONTAP the Sfor the Syn可使用 環境時、您現在必須提供IAM角色的ARN、Cloud Manager可用來建立FSXfor ONTAP the Synfrole工作環境。您先前需要提供AWS存取金鑰。
+
+link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["瞭解如何設定FSX for ONTAP Sfor Sfor Sfor的權限"]。
+
+
+
+== 2021年10月31日
+
+
+
+=== 使用Cloud Manager API建立iSCSI Volume
+
+您可以ONTAP 使用Cloud Manager API為FSX建立iSCSI Volume以供使用、並在工作環境中加以管理。
+
+
+
+=== 建立Volume時、請選取Volume單位
+
+您可以 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["建立磁碟區時、請選取Volume單位（GiB或TiB）"] FSX ONTAP for Sfor Sf.
+
+
+
+== 2021年10月4日
+
+
+
+=== 使用Cloud Manager建立CIFS Volume
+
+現在您可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["使用ONTAP Cloud Manager在FSXF中建立CIFS Volume以供其使用"]。
+
+
+
+=== 使用Cloud Manager編輯Volume
+
+現在您可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-fsx-volumes.html#editing-volumes["使用ONTAP Cloud Manager編輯FSXfor Sf2 Volume"]。
+
+
+
+== 2021年9月2日
+
+
+
+=== 支援Amazon FSX for ONTAP Sfy
+
+* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["Amazon FSX for ONTAP Sf"] 是一項完整的託管服務、可讓客戶啟動及執行採用NetApp ONTAP 的一套資訊儲存作業系統的檔案系統。FSX for ONTAP VMware提供NetApp客戶在內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。
++
+link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html["深入瞭解Amazon FSX for ONTAP Sf"]。
+
+* 您可以在ONTAP Cloud Manager中設定FSXfor Sfor Sfor Sfor Sf有效 工作環境。
++
+link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html["建立Amazon FSX以利ONTAP 不工作環境"]。
+
+* 使用AWS和Cloud Manager中的Connector、您可以建立及管理磁碟區、複寫資料、並將FSX for ONTAP 效益與NetApp雲端服務整合、例如Data Sense和Cloud Sync Sf4。
++
+link:https://docs.netapp.com/us-en/cloud-manager-data-sense/task-scanning-fsx.html["開始瞭解Cloud Data Sense for Amazon FSX ONTAP for Sf"^]。
+
+

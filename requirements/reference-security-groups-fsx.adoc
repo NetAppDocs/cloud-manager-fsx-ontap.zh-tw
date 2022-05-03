@@ -1,0 +1,354 @@
+---
+sidebar: sidebar 
+permalink: requirements/reference-security-groups-fsx.html 
+keywords: security group, security groups, rules, ports, fsx, inbound, outbound, rules 
+summary: Cloud Manager會建立AWS安全性群組、其中包含Cloud Manager和FSXfor ONTAP the支援成功運作所需的傳入和傳出規則。您可能需要參照連接埠進行測試、或是需要使用自己的連接埠。 
+---
+= FSXfor ONTAP Sfor Sf.的安全群組規則
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Cloud Manager會建立AWS安全性群組、其中包含Cloud Manager和FSXfor ONTAP the支援成功運作所需的傳入和傳出規則。您可能需要參照連接埠進行測試、或是需要使用自己的連接埠。
+
+
+
+== FSXfor ONTAP Sfor Sfor Sf.的規則
+
+FSX for ONTAP Sfor Sfor Sfor Sfor Security群組需要傳入和傳出規則。此圖說明FSXfor ONTAP EfuS網路 組態和安全性群組需求。
+
+image:diagram-fsx-security-groups.png["FSX圖表、適用於ONTAP 不穩定安全群組組組態。"]
+
+您需要使用AWS管理主控台來找出與Enis相關的安全性群組。
+
+.步驟
+. 在ONTAP AWS管理主控台開啟FSXfor S廳 檔案系統、然後按一下檔案系統ID連結。
++
+image:screenshot-fsx-file-system-id.png["AWS管理主控台的FSX檔案系統ID快照。"]
+
+. 在*網路與安全性*索引標籤上、按一下偏好的或待命子網路的網路介面ID。
++
+image:screenshot-fsx-eni-id.png["FSX for ONTAP SENI ID的快照。"]
+
+. 按一下網路介面表中的安全性群組或網路介面的*詳細資料*區段。
++
+image:screenshot-fsx-security-group-id.png["FSX for ONTAP the Sof the Sof the Sof the Sof the FSof the Security Group ID（"]
+
+
+
+
+
+=== 傳入規則
+
+[cols="10,10,80"]
+|===
+| 傳輸協定 | 連接埠 | 目的 
+
+
+| 所有 ICMP | 全部 | Ping 執行個體 
+
+
+| HTTP | 80 | 使用叢集管理 LIF 的 IP 位址、以 HTTP 存取 System Manager Web 主控台 
+
+
+| HTTPS | 443.. | 使用叢集管理 LIF 的 IP 位址、以 HTTPS 存取 System Manager 網路主控台 
+
+
+| SSH | 22 | SSH 存取叢集管理 LIF 的 IP 位址或節點管理 LIF 
+
+
+| TCP | 111. | 遠端程序需要 NFS 
+
+
+| TCP | 139. | CIFS 的 NetBios 服務工作階段 
+
+
+| TCP | 161-162 | 簡單的網路管理傳輸協定 
+
+
+| TCP | 445 | Microsoft SMB/CIFS over TCP 搭配 NetBios 架構 
+
+
+| TCP | 635 | NFS 掛載 
+
+
+| TCP | 749 | Kerberos 
+
+
+| TCP | 2049 | NFS 伺服器精靈 
+
+
+| TCP | 3260 | 透過 iSCSI 資料 LIF 存取 iSCSI 
+
+
+| TCP | 4045 | NFS 鎖定精靈 
+
+
+| TCP | 4046 | NFS 的網路狀態監控 
+
+
+| TCP | 10000 | 使用 NDMP 備份 
+
+
+| TCP | 11104. | 管理 SnapMirror 的叢集間通訊工作階段 
+
+
+| TCP | 11105. | 使用叢集間生命體進行 SnapMirror 資料傳輸 
+
+
+| UDP | 111. | 遠端程序需要 NFS 
+
+
+| UDP | 161-162 | 簡單的網路管理傳輸協定 
+
+
+| UDP | 635 | NFS 掛載 
+
+
+| UDP | 2049 | NFS 伺服器精靈 
+
+
+| UDP | 4045 | NFS 鎖定精靈 
+
+
+| UDP | 4046 | NFS 的網路狀態監控 
+
+
+| UDP | 4049 | NFS rquotad 傳輸協定 
+|===
+
+
+=== 傳出規則
+
+針對FSXfor ONTAP Sfor Sfor支援的預先定義安全性群組會開啟所有傳出流量。如果可以接受、請遵循基本的傳出規則。如果您需要更嚴格的規則、請使用進階的傳出規則。
+
+
+
+==== 基本傳出規則
+
+針對FSXfor ONTAP Sfor Sfor FSfor的預先定義安全性群組包括下列傳出規則。
+
+[cols="20,20,60"]
+|===
+| 傳輸協定 | 連接埠 | 目的 
+
+
+| 所有 ICMP | 全部 | 所有傳出流量 
+
+
+| 所有 TCP | 全部 | 所有傳出流量 
+
+
+| 所有的 udp | 全部 | 所有傳出流量 
+|===
+
+
+==== 進階傳出規則
+
+您不需要開啟特定的連接埠來進行中介、也不需要在FSXfor ONTAP Sfor Sf/節點之間開啟。
+
+
+NOTE: 來源是FSXfor ONTAP Sfor the系統上的介面（IP位址）。
+
+[cols="10,10,6,20,20,34"]
+|===
+| 服務 | 傳輸協定 | 連接埠 | 來源 | 目的地 | 目的 
+
+
+.18+| Active Directory | TCP | 88 | 節點管理 LIF | Active Directory 樹系 | Kerberos V 驗證 
+
+
+| UDP | 137. | 節點管理 LIF | Active Directory 樹系 | NetBios 名稱服務 
+
+
+| UDP | 138 | 節點管理 LIF | Active Directory 樹系 | NetBios 資料報服務 
+
+
+| TCP | 139. | 節點管理 LIF | Active Directory 樹系 | NetBios 服務工作階段 
+
+
+| TCP 與 UDP | 389 | 節點管理 LIF | Active Directory 樹系 | LDAP 
+
+
+| TCP | 445 | 節點管理 LIF | Active Directory 樹系 | Microsoft SMB/CIFS over TCP 搭配 NetBios 架構 
+
+
+| TCP | 464.64 | 節點管理 LIF | Active Directory 樹系 | Kerberos V 變更及設定密碼（ Set_change ） 
+
+
+| UDP | 464.64 | 節點管理 LIF | Active Directory 樹系 | Kerberos 金鑰管理 
+
+
+| TCP | 749 | 節點管理 LIF | Active Directory 樹系 | Kerberos V 變更與設定密碼（ RPCSEC_GSS ） 
+
+
+| TCP | 88 | 資料 LIF （ NFS 、 CIFS 、 iSCSI ） | Active Directory 樹系 | Kerberos V 驗證 
+
+
+| UDP | 137. | 資料 LIF （ NFS 、 CIFS ） | Active Directory 樹系 | NetBios 名稱服務 
+
+
+| UDP | 138 | 資料 LIF （ NFS 、 CIFS ） | Active Directory 樹系 | NetBios 資料報服務 
+
+
+| TCP | 139. | 資料 LIF （ NFS 、 CIFS ） | Active Directory 樹系 | NetBios 服務工作階段 
+
+
+| TCP 與 UDP | 389 | 資料 LIF （ NFS 、 CIFS ） | Active Directory 樹系 | LDAP 
+
+
+| TCP | 445 | 資料 LIF （ NFS 、 CIFS ） | Active Directory 樹系 | Microsoft SMB/CIFS over TCP 搭配 NetBios 架構 
+
+
+| TCP | 464.64 | 資料 LIF （ NFS 、 CIFS ） | Active Directory 樹系 | Kerberos V 變更及設定密碼（ Set_change ） 
+
+
+| UDP | 464.64 | 資料 LIF （ NFS 、 CIFS ） | Active Directory 樹系 | Kerberos 金鑰管理 
+
+
+| TCP | 749 | 資料 LIF （ NFS 、 CIFS ） | Active Directory 樹系 | Kerberos V 變更及設定密碼（ RPCSEC_GSS ） 
+
+
+| 備份至 S3 | TCP | 5010. | 叢集間 LIF | 備份端點或還原端點 | 備份與還原備份至 S3 功能的作業 
+
+
+| DHCP | UDP | 68 | 節點管理 LIF | DHCP | 第一次設定的 DHCP 用戶端 
+
+
+| DHCPS | UDP | 67 | 節點管理 LIF | DHCP | DHCP 伺服器 
+
+
+| DNS | UDP | 53. | 節點管理 LIF 與資料 LIF （ NFS 、 CIFS ） | DNS | DNS 
+
+
+| NDMP | TCP | 18600 – 18699 | 節點管理 LIF | 目的地伺服器 | NDMP 複本 
+
+
+| SMTP | TCP | 25 | 節點管理 LIF | 郵件伺服器 | 可以使用 SMTP 警示 AutoSupport 來執行功能 
+
+
+.4+| SNMP | TCP | 161. | 節點管理 LIF | 監控伺服器 | 透過 SNMP 設陷進行監控 
+
+
+| UDP | 161. | 節點管理 LIF | 監控伺服器 | 透過 SNMP 設陷進行監控 
+
+
+| TCP | 162% | 節點管理 LIF | 監控伺服器 | 透過 SNMP 設陷進行監控 
+
+
+| UDP | 162% | 節點管理 LIF | 監控伺服器 | 透過 SNMP 設陷進行監控 
+
+
+.2+| SnapMirror | TCP | 11104. | 叢集間 LIF | 叢集間 LIF ONTAP | 管理 SnapMirror 的叢集間通訊工作階段 
+
+
+| TCP | 11105. | 叢集間 LIF | 叢集間 LIF ONTAP | SnapMirror 資料傳輸 
+
+
+| 系統記錄 | UDP | 514 | 節點管理 LIF | 系統記錄伺服器 | 系統記錄轉送訊息 
+|===
+
+
+== Connector 規則
+
+Connector 的安全性群組需要傳入和傳出規則。
+
+
+
+=== 傳入規則
+
+[cols="10,10,80"]
+|===
+| 傳輸協定 | 連接埠 | 目的 
+
+
+| SSH | 22 | 提供對 Connector 主機的 SSH 存取權 
+
+
+| HTTP | 80 | 提供HTTP存取、從用戶端網頁瀏覽器存取本機使用者介面、以及從Cloud Data Sense連線 
+
+
+| HTTPS | 443.. | 提供 HTTPS 存取、從用戶端網頁瀏覽器存取本機使用者介面 
+
+
+| TCP | 3128 | 如果您的AWS網路不使用NAT或Proxy、則可提供Cloud Data Sense執行個體以存取網際網路 
+|===
+
+
+=== 傳出規則
+
+Connector 的預先定義安全性群組會開啟所有傳出流量。如果可以接受、請遵循基本的傳出規則。如果您需要更嚴格的規則、請使用進階的傳出規則。
+
+
+
+==== 基本傳出規則
+
+Connector 的預先定義安全性群組包括下列傳出規則。
+
+[cols="20,20,60"]
+|===
+| 傳輸協定 | 連接埠 | 目的 
+
+
+| 所有 TCP | 全部 | 所有傳出流量 
+
+
+| 所有的 udp | 全部 | 所有傳出流量 
+|===
+
+
+==== 進階傳出規則
+
+如果您需要嚴格的傳出流量規則、可以使用下列資訊、僅開啟連接器傳出通訊所需的連接埠。
+
+
+NOTE: 來源 IP 位址為 Connector 主機。
+
+[cols="5*"]
+|===
+| 服務 | 傳輸協定 | 連接埠 | 目的地 | 目的 
+
+
+.9+| Active Directory | TCP | 88 | Active Directory 樹系 | Kerberos V 驗證 
+
+
+| TCP | 139. | Active Directory 樹系 | NetBios 服務工作階段 
+
+
+| TCP | 389 | Active Directory 樹系 | LDAP 
+
+
+| TCP | 445 | Active Directory 樹系 | Microsoft SMB/CIFS over TCP 搭配 NetBios 架構 
+
+
+| TCP | 464.64 | Active Directory 樹系 | Kerberos V 變更及設定密碼（ Set_change ） 
+
+
+| TCP | 749 | Active Directory 樹系 | Active Directory Kerberos V 變更及設定密碼（ RPCSEC_GSS ） 
+
+
+| UDP | 137. | Active Directory 樹系 | NetBios 名稱服務 
+
+
+| UDP | 138 | Active Directory 樹系 | NetBios 資料報服務 
+
+
+| UDP | 464.64 | Active Directory 樹系 | Kerberos 金鑰管理 
+
+
+| API 呼叫與 AutoSupport 功能 | HTTPS | 443.. | 傳出網際網路和 ONTAP 叢集管理 LIF | API 呼叫 AWS 和 ONTAP es供 、並傳送 AutoSupport 不只是功能的訊息給 NetApp 
+
+
+| API 呼叫 | TCP | 8088 | 備份至 S3 | API 呼叫備份至 S3 
+
+
+| DNS | UDP | 53. | DNS | 用於 Cloud Manager 的 DNS 解析 
+
+
+| 雲端資料感測 | HTTP | 80 | Cloud Data Sense執行個體 | Cloud Data Sense for Cloud Volumes ONTAP 功能 
+|===

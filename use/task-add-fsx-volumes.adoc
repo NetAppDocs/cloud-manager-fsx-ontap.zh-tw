@@ -1,0 +1,141 @@
+---
+sidebar: sidebar 
+permalink: use/task-add-fsx-volumes.html 
+keywords: fsx for ontap, fsx, aws, create volumes, create nfs volumes, delete nfs volumes, cifs volumes, iscsi, mount volume, delete working environment 
+summary: 設定工作環境之後、您可以建立及管理Amazon FSX以利ONTAP 執行支援的物件、複製及快照、變更分層原則、以及移除或刪除FSX以ONTAP 利執行效能。 
+---
+= 為Amazon FSX建立Volume ONTAP for Sf
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+設定工作環境之後、您可以建立及掛載ONTAP 適用於SfSX Volume的FSX。
+
+
+
+== 建立磁碟區
+
+您可以在ONTAP Cloud Manager中、從FSX建立及管理NFS和CIFS磁碟區、以利執行運作環境。使用ONTAP Sfxi建立的NFS和CIFS磁碟區也會顯示在您的FSX中ONTAP 、以利執行各種作業環境。
+
+您可以使用ONTAP SfxCLI、ONTAP fisc進API或Cloud Manager API來建立iSCSI磁碟區、並在FSXfor ONTAP 支援功能的環境中使用Cloud Manager來管理這些磁碟區。
+
+您需要：
+
+* 使用中 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
+* 若要使用SMB、您必須設定DNS和Active Directory。如需DNS和Active Directory網路組態的詳細資訊、請參閱 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS：使用自我管理的Microsoft AD的必要條件"^]。
+
+
+.步驟
+. 開啟FSX,以利ONTAP 執行不工作環境。
+. 如果您未啟用Connector、系統會提示您新增一個。
++
+image:screenshot_fsx_connector_prompt.png["FSX for ONTAP the Sof the Sof the Sof the Sof the Sof the Sof the"]
+
+. 按一下「* Volumes *（*磁碟區*
+. 按一下 * 新增 Volume * 。
++
+image:screenshot_fsx_volume_new.png["FSX for ONTAP Sf拍照for Sf拍照Volume索引標籤。"]
+
+. * Volume詳細資料與保護*：
++
+.. 輸入新磁碟區的名稱。
+.. Storage VM（SVM）欄位會根據您工作環境的名稱、自動填入SVM。
+.. 輸入Volume大小、然後選取單位（GiB或TiB）。請注意、磁碟區大小會隨著使用量而增加。
+.. 選取快照原則。根據預設、每小時（保留最後六個複本）、每天（保留最後兩個複本）和每週（保留最後兩個複本）會擷取快照。
+.. 單擊 * 下一步 * 。
++
+image:screenshot_fsx_volume_details.png["FSX的Volume詳細資料和保護欄位快照、以ONTAP 利建立實體磁碟區。"]
+
+
+
+. *傳輸協定*：選取NFS或CIFS磁碟區傳輸協定。
++
+.. NFS ：
++
+*** 選取存取控制原則。
+*** 選取NFS版本。
+*** 選取自訂匯出原則。按一下資訊圖示以取得有效的值準則。
++
+image:screenshot_fsx_volume_protocol_nfs.png["NFS組態FSX的快照ONTAP 、用於建立實體磁碟區。"]
+
+
+
+.. CIFS：
++
+*** 輸入共用名稱。
+*** 輸入以分號分隔的使用者或群組。
+*** 選取磁碟區的權限等級。
++
+image:screenshot_fsx_volume_protocol_cifs.png["NFS組態FSX的快照ONTAP 、用於建立實體磁碟區。"]
+
++
+
+TIP: 如果這是此工作環境的第一個CIFS磁碟區、系統會提示您使用_Active Directory或_Workgroup_設定來設定CIFS連線。
+
+*** 如果您選取Active Directory設定、則需要提供下列組態資訊。
++
+[cols="25,75"]
+|===
+| 欄位 | 說明 
+
+
+| DNS 主要 IP 位址 | 提供CIFS伺服器名稱解析的DNS伺服器IP位址。列出的DNS伺服器必須包含所需的服務位置記錄（SRV),才能找到CIFS伺服器要加入之網域的Active Directory LDAP伺服器和網域控制器。 
+
+
+| 要加入的 Active Directory 網域 | 您要CIFS伺服器加入之Active Directory（AD）網域的FQDN。 
+
+
+| 授權加入網域的認證資料 | 具有足夠權限的 Windows 帳戶名稱和密碼、可將電腦新增至 AD 網域內的指定組織單位（ OU ）。 
+
+
+| CIFS 伺服器 NetBios 名稱 | AD 網域中唯一的 CIFS 伺服器名稱。 
+
+
+| 組織單位 | AD 網域中與 CIFS 伺服器相關聯的組織單位。預設值為「 CN= 電腦」。 
+
+
+| DNS 網域 | 儲存虛擬機器（SVM）的DNS網域。在大多數情況下、網域與 AD 網域相同。 
+
+
+| NTP 伺服器 | 選取*啟用NTP伺服器組態*、以使用Active Directory DNS設定NTP伺服器。如果您需要使用不同的位址來設定 NTP 伺服器、則應該使用 API 。請參閱 https://docs.netapp.com/us-en/cloud-manager-automation/index.html["Cloud Manager自動化文件"^] 以取得詳細資料。 
+|===
+*** 如果您選取「工作群組」設定、請輸入設定為CIFS的工作群組的伺服器和工作群組名稱。
+
+
+.. 單擊 * 下一步 * 。
+
+
+. *使用設定檔與分層*：
++
+.. 預設會停用*儲存效率*。您可以變更此設定以啟用重複資料刪除和壓縮。
+.. 根據預設、*分層原則*設為*僅Snapshot *。您可以根據需求選擇不同的分層原則。
+.. 單擊 * 下一步 * 。
++
+image:screenshot_fsx_volume_usage_tiering.png["FSX使用設定檔和分層組態的快照、以ONTAP 利建立實體磁碟區。"]
+
+
+
+. *審查*：檢閱您的Volume組態。按一下*上一步*變更設定、或按一下*新增*建立磁碟區。
+
+
+新磁碟區會新增至工作環境。
+
+
+
+== 掛載磁碟區
+
+從 Cloud Manager 存取掛載指示、以便將磁碟區掛載至主機。
+
+.步驟
+. 開啟工作環境。
+. 開啟Volume功能表、然後選取* Mount the volume *。
++
+image:screenshot_fsx_volume_actions.png["開啟Volume功能表時可用作業的快照。"]
+
+. 請依照指示來掛載磁碟區。
+

@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: start/task-getting-started-fsx.html 
+keywords: amazon fsx for ontap, fsx, netapp, data fabric, hybrid cloud, cloud, public cloud, networking, vpc, quick, getting started, install, installing, deploy, deploying, setup, setting up, launching, requirements, prerequisites, cloud central, get started, network, vpn, tier, tiering, storage tier, data tier, granting, permissions, policy, iam policy, policies, attach, iam user, access key, secret key, keys, sign up, cloud manager, create 
+summary: Amazon FSX ONTAP for Sfin入門指南（僅需幾個步驟）。 
+---
+= Amazon FSX for ONTAP Sfor Sf.入門
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Amazon FSX ONTAP for Sfin入門指南（僅需幾個步驟）。
+
+只ONTAP 要幾個步驟、就能開始使用FSXfor Sfor而已。
+
+[role="quick-margin-para"]
+在新增Volume之前、您必須先建立Amazon FSX for ONTAP Szing工作環境。您需要 link:../requirements/task-setting-up-permissions-fsx.html["設定IAM角色、讓Cloud Manager SaaS能夠承擔角色"]。
+
+[role="quick-margin-para"]
+您必須擁有 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS連接器"^] 若要開啟FSXfor ONTAP the Sfor the Sfor the Sf12工作環境、建立磁碟區或執行其他動作。需要Connector時、Cloud Manager會在尚未新增連接器時提示您。
+
+[role="quick-margin-para"]
+您可以ONTAP 使用Cloud Manager建立適用於SfSX Volume的FSX。
+
+[role="quick-margin-para"]
+使用Cloud Manager來管理磁碟區、並設定其他服務、例如複寫、Cloud Sync 鏡像和Data Sense。
+
+.相關連結
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["從 Cloud Manager 建立 Connector"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-launching-aws-mktp.html["從 AWS Marketplace 啟動 Connector"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["在 Linux 主機上安裝 Connector 軟體"^]
+

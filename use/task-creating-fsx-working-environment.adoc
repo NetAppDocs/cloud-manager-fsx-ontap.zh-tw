@@ -1,0 +1,176 @@
+---
+sidebar: sidebar 
+permalink: use/task-creating-fsx-working-environment.html 
+keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment 
+summary: Cloud Manager可讓您建立FSXfor ONTAP Sfor Sfor Sfor Sfor Sfor Sfor Sfor工作環境、以新增磁碟區並管理其他資料服務。 
+---
+= 建立及管理Amazon FSX以利ONTAP 實現不工作環境
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用Cloud Manager、您可以建立及管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sfor Sfor Sfor Sfor營運環境、以新增及管理磁碟區及其他資料服務。
+
+
+
+== 建立Amazon FSX以利ONTAP 不工作環境
+
+第一步是建立FSX,以利ONTAP 實現不二的工作環境。如果您已在ONTAP AWS管理主控台建立FSXfor the S廳 檔案系統、您可以 link:task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["使用Cloud Manager探索IT"]。
+
+在ONTAP Cloud Manager中建立FSXfor Sfor Sfor Sf有效 作業環境之前、您需要：
+
+* IAM角色的ARN賦予Cloud Manager建立FSX以利ONTAP 運作環境所需的權限。請參閱 link:../requirements/task-setting-up-permissions-fsx.html["將AWS認證資料新增至Cloud Manager"] 以取得詳細資料。
+* 您將在其中建立FSX以利ONTAP 執行個體的區域和VPN資訊。
+
+
+.步驟
+. 在Cloud Manager中、新增工作環境、選取位置* Amazon Web Services*、然後按一下* Next*。
+. 選擇* Amazon FSX* for ONTAP Sfor Sfor Sfor *、然後按一下* Next*（*下一步*）。
++
+image:screenshot_add_fsx_working_env.png["新增Amazon FSX for ONTAP Szing工作環境的快照"]
+
+. 在ONTAP Cloud Manager中驗證FSXfor的功能。
++
+.. 如果您的帳戶中現有的IAM角色具有正確的FSXfor ONTAP 支援AWS權限、請從下拉式清單中選取該角色。
++
+image:screenshot-fsx-assume-role-present.png["顯示AWS角色下拉式清單的快照"]
+
+.. 如果您的帳戶中沒有IAM角色、請按一下*認證頁面*、然後依照精靈中的步驟、為AWS IAM角色新增ARN、並使用FSX來取得ONTAP 資訊證明。請參閱 link:../requirements/task-setting-up-permissions-fsx.html["將AWS認證資料新增至Cloud Manager"] 以取得詳細資料。
++
+image:screenshot-fsx-assume-role-not-present.png["將ARN新增至AWS IAM角色的步驟快照、並搭配FSXfor ONTAP Sfor the permission。"]
+
+
+
+. 提供有關FSXfor ONTAP Sfor Sfinstance的資訊：
++
+.. 輸入您要使用的工作環境名稱。
+.. 您也可以按一下加號、然後輸入標記名稱和值、藉此建立標記。
+.. 輸入並確認ONTAP 您想要使用的「叢集」密碼。
+.. 選取此選項、即可為SVM使用者使用相同的密碼、或設定不同的密碼。
+.. 單擊 * 下一步 * 。
++
+image:screenshot_add_fsx_credentials.png["新增FSXfor ONTAP Sfor Sfzing認證的快照"]
+
+
+
+. 提供地區與VPC資訊：
++
+.. 選取一個區域和VPC、子網路位於至少兩個可用度區域中、因此每個節點都位於專用可用度區域中。
+.. 接受預設的安全性群組、或選取不同的安全性群組。 link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules.html["AWS安全群組"^] 控制傳入和傳出流量。這些設定是由AWS管理員設定、並與相關聯 link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS彈性網路介面（ENI）"^]。
+.. 為每個節點選取可用度區域和子網路。
+.. 單擊 * 下一步 * 。
++
+image:screenshot_add_fsx_region.png["新增區域和VPC for FSX ONTAP for Sz.的快照"]
+
+
+
+. 將_CIDR range保留空白、然後按一下* Next*自動設定可用範圍。您也可以選擇使用 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-transit-gateway.html["AWS Transit閘道"^] 手動設定範圍。
++
+image:screenshot_add_fsx_floatingIP.png["新增區域和VPC for FSX ONTAP for Sz.的快照"]
+
+. 選取包含通往浮動IP位址路由的路由表。如果VPC中只有一個子網路路由表（主路由表）、Cloud Manager會自動將浮動IP位址新增至該路由表。單擊 * 下一步 * 繼續。
++
+image:screenshot_add_fsx_route_table.png["選取FSX for ONTAP Sfing路由表的快照"]
+
+. 接受預設的AWS主金鑰、或按一下*變更金鑰*以選取不同的AWS客戶主金鑰（CMK）。如需CMK的詳細資訊、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/https://docs.netapp.com/us-en/occm/task-setting-up-kms.html["設定 AWS KMS"^]。單擊 * 下一步 * 繼續。
++
+image:screenshot_add_fsx_encryption.png["設定FSX for ONTAP Sof the SURF的 預設主要金鑰的快照"]
+
+. 設定儲存設備：
++
+.. 選取處理量、容量和單位。
+.. 您可以選擇性地指定IOPS值。如果您未指定IOPS值、Cloud Manager會根據輸入的總容量每GiB 3 IOPS設定預設值。例如、如果您輸入2000 GiB作為總容量、而沒有輸入IOPS值、則有效IOPS值將設為6000。
++
+
+WARNING: 如果您指定的IOPS值不符合最低需求、則在新增工作環境時會收到錯誤訊息。image:screenshot_fsx_working_environment_failed_iops.png["如果設定了錯誤的IOPS值、則會顯示錯誤訊息的快照。"]
+
+.. 單擊 * 下一步 * 。image:screenshot_add_fsx_storage_config.png["設定FSX ONTAP for Sfing儲存組態的快照"]
+
+
+. 檢閱您的組態：
++
+.. 按一下這些索引標籤、檢視ONTAP 您的資訊功能、供應商屬性和網路組態。
+.. 按一下*上一個*以變更任何設定。
+.. 按一下「*新增*」以接受設定並建立您的工作環境。
++
+image:screenshot_add_fsx_review.png["檢閱FSX for ONTAP Sf還原 設定的快照"]
+
+
+
+
+
+Cloud Manager會ONTAP 在「畫版」頁面上顯示您的FSXfor支援的組態設定。
+
+image:screenshot_add_fsx_cloud.png["Amazon FSX for ONTAP Sfor Sfor Sfor the工作日環境頁面上的快照。"]
+
+您現在ONTAP 可以使用Cloud Manager、將Volume新增至FSXfor Sfor Sfor Sfor工作環境。
+
+
+
+== 探索現有ONTAP 的FSX for Sf供 資料系統使用
+
+如果ONTAP 您使用AWS管理主控台建立FSX for S廳 檔案系統、或是想要還原先前移除的工作環境、您可以使用Cloud Manager來探索它。
+
+.步驟
+. 在Cloud Manager中、按一下*新增工作環境*、然後選取* Amazon Web Services*。
+. 選擇* Amazon FSX* for ONTAP Sfor Sfor Sfor *、然後按一下*按一下此處*。
++
+image:screenshot_fsx_working_environment_discover.png["探索Amazon FSX for ONTAP Sfa的工作環境的快照"]
+
+. 選取現有認證或建立新認證。單擊 * 下一步 * 。
+. 選取您要新增的AWS區域和工作環境。
++
+image:screenshot_fsx_working_environment_select.png["選取AWS區域和工作環境的快照"]
+
+. 按一下「 * 新增 * 」。
+
+
+Cloud Manager會顯示您探索到的FSX ONTAP for Sfor Sficity檔案系統。
+
+
+
+== 從ONTAP 工作區中移除FSXfor Sfor
+
+您可以從ONTAP Cloud Manager移除FSXfor Sfor支援、而不需刪除FSX for ONTAP S庫 帳戶或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sfor the Sf有效 工作環境新增回Cloud Manager。
+
+.步驟
+. 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續移除工作環境。
+. 在頁面右上角、選取「動作」功能表、然後按一下「*從工作區移除*」。
++
+image:screenshot_fsx_working_environment_remove.png["從ONTAP Cloud Manager介面移除FSX for Sficity選項的快照。"]
+
+. 按一下「*移除*」、從ONTAP Cloud Manager移除FSX for Sfor
+
+
+
+
+== 刪除FSX以利ONTAP 執行作業環境
+
+您可以從ONTAP Cloud Manager刪除FSXfor Sfor
+
+.開始之前
+* 您必須 link:task-manage-fsx-volumes.html#delete-volumes["刪除所有Volume"] 與檔案系統相關聯。
+
+
+
+NOTE: 您將需要AWS中的作用中連接器來移除或刪除磁碟區。
+
+* 您無法刪除包含故障磁碟區的工作環境。在刪除FSX for ONTAP Sfi檔案系統之前、必須先使用AWS管理主控台或CLI刪除故障的磁碟區。
+
+
+
+WARNING: 此動作將會刪除與工作環境相關的所有資源。此動作無法復原。
+
+.步驟
+. 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續刪除工作環境。
+. 在頁面右上角、選取「動作」功能表、然後按一下「*刪除*」。
++
+image:screenshot_fsx_working_environment_delete.png["從ONTAP Cloud Manager介面刪除FSX for Sficity選項的快照。"]
+
+. 輸入工作環境的名稱、然後按一下*刪除*。
+

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp以多種方式支援Cloud Manager。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
+  <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">NetApp以多種方式支援Cloud Manager及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">自我支援</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
+  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
+  <block id="76b571fb5edea1c1994fa0ff01f7b1e2" category="paragraph">請搜尋Cloud Manager知識庫、找出有助於疑難排解問題的文章。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="7f3490343cad8dc3bfdb72dd5d957e8d" category="paragraph">加入Cloud Manager社群、追蹤後續討論或建立新討論。</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
+  <block id="3c313458d6e15dd2c4336e47118d0a8f" category="paragraph">您目前正在檢視的Cloud Manager文件。</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
+  <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善Cloud Manager。</block>
+  <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp支援</block>
+  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">除了上述的自我支援選項、您也可以與NetApp支援工程師合作、在您啟動支援之後解決任何問題。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
+  <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在Cloud Manager中、按一下*「說明」&gt;「支援」*。</block>
+  <block id="f5052c65917d7341726235d4d4941461" category="list-text">在「Technical Support（技術支援）」下選擇可用的選項之一：</block>
+  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">按一下*致電我們*以尋找NetApp技術支援的電話號碼。</block>
+  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">按一下「*開啟問題*」、選取其中一個選項、然後按一下「*傳送*」。</block>
+  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp代表將審查您的案例、並盡快回覆您。</block>
+  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先將NetApp支援網站帳戶新增至Cloud Manager、然後註冊以取得支援。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
+  <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">新增一個NSS帳戶</block>
+  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">「支援儀表板」可讓您從單一位置新增及管理所有NetApp支援網站帳戶。</block>
+  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">註冊一項</block>
+  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">如果您還沒有 NetApp 支援網站帳戶、<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>。</block>
+  <block id="0046efb3377274ff3215d4b30269809e" category="list-text">在Cloud Manager主控台右上角、按一下「說明」圖示、然後選取*「支援」*。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
+  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">按一下「*」「nss管理」&gt;「新增nssAccount」*。</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出現提示時、按一下*繼續*以重新導向至Microsoft登入頁面。</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面上、提供您的NetApp支援網站註冊電子郵件地址和密碼、以執行驗證程序。</block>
+  <block id="f5fb4199485234c409525f430b737010" category="paragraph">此動作可讓Cloud Manager使用您的NSS帳戶。</block>
+  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">附註：帳戶必須是客戶層級的帳戶（非來賓帳戶或臨時帳戶）。</block>
+  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">註冊您的帳戶以取得支援</block>
+  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">支援註冊可從支援儀表板的Cloud Manager取得。</block>
+  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">在* Resources（資源）*選項卡中，單擊* Register for Support*（註冊以獲得支持*）。</block>
+  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">選取您要登錄的NSS認證、然後按一下「*登錄*」。</block>
+  <block id="f72448d4491d54800c0487b0482fd149" category="summary">設定工作環境之後、您可以建立及管理Amazon FSX以利ONTAP 執行支援的物件、複製及快照、變更分層原則、以及移除或刪除FSX以ONTAP 利執行效能。</block>
+  <block id="0b0c82859f18c5cf1bcb10330fab56bd" category="doc">為Amazon FSX建立Volume ONTAP for Sf</block>
+  <block id="d950ccfec30779e51b9fd6a8aecbb558" category="paragraph">設定工作環境之後、您可以建立及掛載ONTAP 適用於SfSX Volume的FSX。</block>
+  <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">建立磁碟區</block>
+  <block id="59882fc1ce16f5b47ed90394ec3dcd4a" category="paragraph">您可以在ONTAP Cloud Manager中、從FSX建立及管理NFS和CIFS磁碟區、以利執行運作環境。使用ONTAP Sfxi建立的NFS和CIFS磁碟區也會顯示在您的FSX中ONTAP 、以利執行各種作業環境。</block>
+  <block id="3c5b27df21b3db8fbf99260b6111c620" category="paragraph">您可以使用ONTAP SfxCLI、ONTAP fisc進API或Cloud Manager API來建立iSCSI磁碟區、並在FSXfor ONTAP 支援功能的環境中使用Cloud Manager來管理這些磁碟區。</block>
+  <block id="36ee27bc3fc7c617977b35534609c979" category="paragraph">您需要：</block>
+  <block id="ad7e5366eeeef80a0cca58ed2f228e69" category="inline-link">AWS的連接器</block>
+  <block id="2aeb3bf14f4c88c233b9054f0d5f9f46" category="list-text">使用中<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>。</block>
+  <block id="5465e73e9a93dbf3732ca4677b294afe" category="inline-link-macro">AWS：使用自我管理的Microsoft AD的必要條件</block>
+  <block id="9e9d8417e8c186ec6d679c589ea0e388" category="list-text">若要使用SMB、您必須設定DNS和Active Directory。如需DNS和Active Directory網路組態的詳細資訊、請參閱 <block ref="d929f7299259db2194621c6c3cd97ea7" category="inline-link-macro-rx"></block>。</block>
+  <block id="5f1502c18596a814041ff3a5f4953b39" category="list-text">開啟FSX,以利ONTAP 執行不工作環境。</block>
+  <block id="8bb933964e44d095412ffc5c20dc6cd4" category="list-text">如果您未啟用Connector、系統會提示您新增一個。</block>
+  <block id="e5269a85a2cb3cf98fc7a82c3a558211" category="inline-image-macro">FSX for ONTAP the Sof the Sof the Sof the Sof the Sof the Sof the</block>
+  <block id="5890e0ca1f9df3cd1ea6270dc6c67d05" category="paragraph"><block ref="5890e0ca1f9df3cd1ea6270dc6c67d05" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="811f08ec14bddf12bb95cd5465790a18" category="list-text">按一下「* Volumes *（*磁碟區*</block>
+  <block id="5e65e2e51d0d291499a42f54730e645c" category="list-text">按一下 * 新增 Volume * 。</block>
+  <block id="e76e0d2c6703e75c3666c67d2b185919" category="inline-image-macro">FSX for ONTAP Sf拍照for Sf拍照Volume索引標籤。</block>
+  <block id="638a4176be76c6cf595776403405ef92" category="paragraph"><block ref="638a4176be76c6cf595776403405ef92" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="77c018c319fffd489ece68e7e9f933e3" category="list-text">* Volume詳細資料與保護*：</block>
+  <block id="2165a478df3c7cdbb020957742f7a396" category="list-text">輸入新磁碟區的名稱。</block>
+  <block id="8a7a21842c95be5ef7cf8fb45e457fbb" category="list-text">Storage VM（SVM）欄位會根據您工作環境的名稱、自動填入SVM。</block>
+  <block id="09d72555d9ef793670cfd52c3b29a5a9" category="list-text">輸入Volume大小、然後選取單位（GiB或TiB）。請注意、磁碟區大小會隨著使用量而增加。</block>
+  <block id="67cab8c7d29423fd822eaba3b1d1ad3e" category="list-text">選取快照原則。根據預設、每小時（保留最後六個複本）、每天（保留最後兩個複本）和每週（保留最後兩個複本）會擷取快照。</block>
+  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">單擊 * 下一步 * 。</block>
+  <block id="4b1ceb73f69790897d4632ba712c7659" category="inline-image-macro">FSX的Volume詳細資料和保護欄位快照、以ONTAP 利建立實體磁碟區。</block>
+  <block id="5d40ada61a97a98ef6bc45b298d20ee3" category="paragraph"><block ref="5d40ada61a97a98ef6bc45b298d20ee3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bf6c6b2753126136892e2e302ab0f03d" category="list-text">*傳輸協定*：選取NFS或CIFS磁碟區傳輸協定。</block>
+  <block id="547a5c5cf72eabae707b477139de2cdd" category="list-text">NFS ：</block>
+  <block id="2f13041935e5c3174ee293d608dc78fb" category="list-text">選取存取控制原則。</block>
+  <block id="b07a5c1cd32beac9e88c78df72edc8ec" category="list-text">選取NFS版本。</block>
+  <block id="fc103acdd0c976c704dfea17981b4304" category="list-text">選取自訂匯出原則。按一下資訊圖示以取得有效的值準則。</block>
+  <block id="f2ee46b3a1c0e7f976a1164a6ca75f9e" category="inline-image-macro">NFS組態FSX的快照ONTAP 、用於建立實體磁碟區。</block>
+  <block id="7eeb0d62ee9d4c7e8cd6d54885fbb0fe" category="paragraph"><block ref="7eeb0d62ee9d4c7e8cd6d54885fbb0fe" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="83b83892341426df7b542344aa75ca76" category="list-text">CIFS：</block>
+  <block id="2ab8185476c6aa2340579384597cb230" category="list-text">輸入共用名稱。</block>
+  <block id="e5de5245ec2c46e9d548be02749c8dc0" category="list-text">輸入以分號分隔的使用者或群組。</block>
+  <block id="4b84f0c5fc5c7b04da02e0f060ce5ce5" category="list-text">選取磁碟區的權限等級。</block>
+  <block id="46e8ceffdf7a4b1aacfa09a39d99e67c" category="paragraph"><block ref="46e8ceffdf7a4b1aacfa09a39d99e67c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e933d10896e213582c2864ce4ca0f276" category="admonition">如果這是此工作環境的第一個CIFS磁碟區、系統會提示您使用_Active Directory或_Workgroup_設定來設定CIFS連線。</block>
+  <block id="6f9872e6257b850cf12c8d7cb5b9f8b8" category="list-text">如果您選取Active Directory設定、則需要提供下列組態資訊。</block>
+  <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">欄位</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">說明</block>
+  <block id="9d35762d6cb446294ba4226fba0d1eb5" category="cell">DNS 主要 IP 位址</block>
+  <block id="123a30d033bf12586c81d5b70356c536" category="cell">提供CIFS伺服器名稱解析的DNS伺服器IP位址。列出的DNS伺服器必須包含所需的服務位置記錄（SRV),才能找到CIFS伺服器要加入之網域的Active Directory LDAP伺服器和網域控制器。</block>
+  <block id="b4a5aaff47ac1aad0a039f0089aac0c6" category="cell">要加入的 Active Directory 網域</block>
+  <block id="bdb1f2fed183dbc7963363bc018c71e6" category="cell">您要CIFS伺服器加入之Active Directory（AD）網域的FQDN。</block>
+  <block id="a3bbc956ff81e28dd77efaaf4d1c5b30" category="cell">授權加入網域的認證資料</block>
+  <block id="03fa572f48ef7f33b022f609e0553e85" category="cell">具有足夠權限的 Windows 帳戶名稱和密碼、可將電腦新增至 AD 網域內的指定組織單位（ OU ）。</block>
+  <block id="2f9a775f92eab720a2ab46b9fa0d4e8b" category="cell">CIFS 伺服器 NetBios 名稱</block>
+  <block id="df93949590558759d0b0f449537966d0" category="cell">AD 網域中唯一的 CIFS 伺服器名稱。</block>
+  <block id="ff309cf3107765153856990e03224d8c" category="cell">組織單位</block>
+  <block id="03cb85499f4837ea1e2f43864e39d856" category="cell">AD 網域中與 CIFS 伺服器相關聯的組織單位。預設值為「 CN= 電腦」。</block>
+  <block id="c11b541f2dc51346609bbd4f84450b6b" category="cell">DNS 網域</block>
+  <block id="314c2b52f53238e133233b60949a6d36" category="cell">儲存虛擬機器（SVM）的DNS網域。在大多數情況下、網域與 AD 網域相同。</block>
+  <block id="225f0204cd2ca87530c681aeae9b7f3e" category="cell">NTP 伺服器</block>
+  <block id="339d2db752bad623389940365590a650" category="inline-link">Cloud Manager自動化文件</block>
+  <block id="e55b48803bc81da61ac823b49b9b4344" category="cell">選取*啟用NTP伺服器組態*、以使用Active Directory DNS設定NTP伺服器。如果您需要使用不同的位址來設定 NTP 伺服器、則應該使用 API 。請參閱<block ref="42b82f9ba6c1ea0d7f3f7e3fde7e922d" category="inline-link-rx"></block> 以取得詳細資料。</block>
+  <block id="c806fc6088504aece33ec1078f7edf13" category="list-text">如果您選取「工作群組」設定、請輸入設定為CIFS的工作群組的伺服器和工作群組名稱。</block>
+  <block id="77329b4991542c66635b8dd3f7a6f518" category="list-text">*使用設定檔與分層*：</block>
+  <block id="0458d209a53113bf4e745280c9316fc5" category="list-text">預設會停用*儲存效率*。您可以變更此設定以啟用重複資料刪除和壓縮。</block>
+  <block id="ecc7b94568d033b8afa5f95b89b20136" category="list-text">根據預設、*分層原則*設為*僅Snapshot *。您可以根據需求選擇不同的分層原則。</block>
+  <block id="7721c2bc1a46653d2fe31df04b1f1d7b" category="inline-image-macro">FSX使用設定檔和分層組態的快照、以ONTAP 利建立實體磁碟區。</block>
+  <block id="d92dc17a178426d4916acd66998be69b" category="paragraph"><block ref="d92dc17a178426d4916acd66998be69b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f3a303dc17c6a2c91073ff0eb515587f" category="list-text">*審查*：檢閱您的Volume組態。按一下*上一步*變更設定、或按一下*新增*建立磁碟區。</block>
+  <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">新磁碟區會新增至工作環境。</block>
+  <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">掛載磁碟區</block>
+  <block id="86a3efaabfd178d684bcd98f4cd6434c" category="paragraph">從 Cloud Manager 存取掛載指示、以便將磁碟區掛載至主機。</block>
+  <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">開啟工作環境。</block>
+  <block id="7dae500c424af1807e52460f734b857e" category="list-text">開啟Volume功能表、然後選取* Mount the volume *。</block>
+  <block id="958a7394acfcee5d86c01e758be4f1c2" category="inline-image-macro">開啟Volume功能表時可用作業的快照。</block>
+  <block id="54b1fe05786347782bfe7e4a3e5de355" category="paragraph"><block ref="54b1fe05786347782bfe7e4a3e5de355" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="38aa5b57f82843fe74bb954a343bf4e0" category="list-text">請依照指示來掛載磁碟區。</block>
+  <block id="45cc32a4d53a1360b7ced005a212045b" category="summary">Cloud Manager可讓您建立FSXfor ONTAP Sfor Sfor Sfor Sfor Sfor Sfor Sfor工作環境、以新增磁碟區並管理其他資料服務。</block>
+  <block id="fdd19953ce3013e133d600a251e48a61" category="doc">建立及管理Amazon FSX以利ONTAP 實現不工作環境</block>
+  <block id="11eed266884d218184bb4e52689ebf4d" category="paragraph">使用Cloud Manager、您可以建立及管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sfor Sfor Sfor Sfor營運環境、以新增及管理磁碟區及其他資料服務。</block>
+  <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="section-title">建立Amazon FSX以利ONTAP 不工作環境</block>
+  <block id="54e54adb33e337b5c804d6820b674b9a" category="inline-link-macro">使用Cloud Manager探索IT</block>
+  <block id="e5375c42110b0016231f311272774e83" category="paragraph">第一步是建立FSX,以利ONTAP 實現不二的工作環境。如果您已在ONTAP AWS管理主控台建立FSXfor the S廳 檔案系統、您可以 <block ref="6a48f5b54424256e49232bb9af7a3d2f" category="inline-link-macro-rx"></block>。</block>
+  <block id="faa4b07ffa49aaead3b9217354fd2e07" category="paragraph">在ONTAP Cloud Manager中建立FSXfor Sfor Sfor Sf有效 作業環境之前、您需要：</block>
+  <block id="110ca3ef191558286fc6a6b28dc94cb5" category="inline-link-macro">將AWS認證資料新增至Cloud Manager</block>
+  <block id="69bfbe4affa79598268226d5fa65599d" category="list-text">IAM角色的ARN賦予Cloud Manager建立FSX以利ONTAP 運作環境所需的權限。請參閱 <block ref="e74b530483dfdc11dbf81674fda787f8" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
+  <block id="122aefb3c8684a0e38fb50d87247ad18" category="list-text">您將在其中建立FSX以利ONTAP 執行個體的區域和VPN資訊。</block>
+  <block id="86e4fb4adcc1e79cfd5f41b2e24492a4" category="list-text">在Cloud Manager中、新增工作環境、選取位置* Amazon Web Services*、然後按一下* Next*。</block>
+  <block id="b270ee1d45588367ac774fa0f727fc7b" category="list-text">選擇* Amazon FSX* for ONTAP Sfor Sfor Sfor *、然後按一下* Next*（*下一步*）。</block>
+  <block id="f8b92939989132d828cfc3eea521a293" category="inline-image-macro">新增Amazon FSX for ONTAP Szing工作環境的快照</block>
+  <block id="61a727936c57251e32cb54d629e03313" category="paragraph"><block ref="61a727936c57251e32cb54d629e03313" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e8d84f3aa4d4c8f84d1addb4f10b99e6" category="list-text">在ONTAP Cloud Manager中驗證FSXfor的功能。</block>
+  <block id="ecda29eb0e0827e3bc560f177dcde537" category="list-text">如果您的帳戶中現有的IAM角色具有正確的FSXfor ONTAP 支援AWS權限、請從下拉式清單中選取該角色。</block>
+  <block id="bc7877d082a71bb780b2cfe54a2f56db" category="inline-image-macro">顯示AWS角色下拉式清單的快照</block>
+  <block id="88c29361a495a558e8e94ba0f1787827" category="paragraph"><block ref="88c29361a495a558e8e94ba0f1787827" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="20b3b63ea7f8892dc0d3f3b25bea6c49" category="list-text">如果您的帳戶中沒有IAM角色、請按一下*認證頁面*、然後依照精靈中的步驟、為AWS IAM角色新增ARN、並使用FSX來取得ONTAP 資訊證明。請參閱 <block ref="e74b530483dfdc11dbf81674fda787f8" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
+  <block id="49727167f9c15ab5bfa0422395e72a31" category="inline-image-macro">將ARN新增至AWS IAM角色的步驟快照、並搭配FSXfor ONTAP Sfor the permission。</block>
+  <block id="32e8c427ff9ed76c4f8f6c5425c12c82" category="paragraph"><block ref="32e8c427ff9ed76c4f8f6c5425c12c82" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2d2a9afadbb6d43ee9c21ef6dc9d315f" category="list-text">提供有關FSXfor ONTAP Sfor Sfinstance的資訊：</block>
+  <block id="620a619e5abf90904f8bd9148673563f" category="list-text">輸入您要使用的工作環境名稱。</block>
+  <block id="d99cba7d7f71be21b06a8ed7b3cead82" category="list-text">您也可以按一下加號、然後輸入標記名稱和值、藉此建立標記。</block>
+  <block id="be5962a1bf7a843353b57734848a4297" category="list-text">輸入並確認ONTAP 您想要使用的「叢集」密碼。</block>
+  <block id="5e3355d70ab52073cbbd53548a916969" category="list-text">選取此選項、即可為SVM使用者使用相同的密碼、或設定不同的密碼。</block>
+  <block id="d0b2e405325c02e50ba6ff1e7a0bfdeb" category="inline-image-macro">新增FSXfor ONTAP Sfor Sfzing認證的快照</block>
+  <block id="0c59eb935a218de10968d2478d3839c5" category="paragraph"><block ref="0c59eb935a218de10968d2478d3839c5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="282e8cadc54623677e7bc13447fcac29" category="list-text">提供地區與VPC資訊：</block>
+  <block id="f71590c4106e9e8e85fb4072cc1b8408" category="list-text">選取一個區域和VPC、子網路位於至少兩個可用度區域中、因此每個節點都位於專用可用度區域中。</block>
+  <block id="d234e32cc579256f2dc2b1c0f46bf8ed" category="inline-link-macro">AWS安全群組</block>
+  <block id="c0a56d37b9a744bb980fb63714ff853a" category="inline-link-macro">AWS彈性網路介面（ENI）</block>
+  <block id="70f807aec183b4123fd9e27691b549ae" category="list-text">接受預設的安全性群組、或選取不同的安全性群組。 <block ref="35ef09e7b222c17f67a4a66af73d7196" category="inline-link-macro-rx"></block> 控制傳入和傳出流量。這些設定是由AWS管理員設定、並與相關聯 <block ref="122c50f10f9ced3dc765944ec92b3531" category="inline-link-macro-rx"></block>。</block>
+  <block id="8e21376ec8ebc45640c4648d1ea694e4" category="list-text">為每個節點選取可用度區域和子網路。</block>
+  <block id="02b7327efc840726659c50bf482440ba" category="inline-image-macro">新增區域和VPC for FSX ONTAP for Sz.的快照</block>
+  <block id="e856b8b85c22d45ac9df09b76538baf0" category="paragraph"><block ref="e856b8b85c22d45ac9df09b76538baf0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8acea1c4fcca87631ca127e2bc757f13" category="inline-link">AWS Transit閘道</block>
+  <block id="98cd8d548fd2fa5186e8dc1c1123f9f6" category="list-text">將_CIDR range保留空白、然後按一下* Next*自動設定可用範圍。您也可以選擇使用<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 手動設定範圍。</block>
+  <block id="7cc0a94cd1ccce02b23807753272d589" category="paragraph"><block ref="7cc0a94cd1ccce02b23807753272d589" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a034482e4ab702e672ecf4a4f7a47766" category="list-text">選取包含通往浮動IP位址路由的路由表。如果VPC中只有一個子網路路由表（主路由表）、Cloud Manager會自動將浮動IP位址新增至該路由表。單擊 * 下一步 * 繼續。</block>
+  <block id="efae399de597884ba9e25be68c488178" category="inline-image-macro">選取FSX for ONTAP Sfing路由表的快照</block>
+  <block id="9e3037d0c83106b66f9113f03ee4fb10" category="paragraph"><block ref="9e3037d0c83106b66f9113f03ee4fb10" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e9993ec838a8efa5cfb29506f884deca" category="inline-link">設定 AWS KMS</block>
+  <block id="ba7f6c9c6d14f28bb8898cb79c05a77b" category="list-text">接受預設的AWS主金鑰、或按一下*變更金鑰*以選取不同的AWS客戶主金鑰（CMK）。如需CMK的詳細資訊、請參閱<block ref="e519e39311516455306db28fa7daaed2" category="inline-link-rx"></block>。單擊 * 下一步 * 繼續。</block>
+  <block id="5f7b5a6773d6263d66627f6153905a67" category="inline-image-macro">設定FSX for ONTAP Sof the SURF的 預設主要金鑰的快照</block>
+  <block id="18ee551ad9864bd46a8f5c35b900c641" category="paragraph"><block ref="18ee551ad9864bd46a8f5c35b900c641" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8c4dc6a5ccac057271e4a3a6b3213037" category="list-text">設定儲存設備：</block>
+  <block id="552d35e7f28ee648c54813ab02c7dcb6" category="list-text">選取處理量、容量和單位。</block>
+  <block id="44c0eb6e7e1c5fab261de20248c94791" category="list-text">您可以選擇性地指定IOPS值。如果您未指定IOPS值、Cloud Manager會根據輸入的總容量每GiB 3 IOPS設定預設值。例如、如果您輸入2000 GiB作為總容量、而沒有輸入IOPS值、則有效IOPS值將設為6000。</block>
+  <block id="72c6f5d2cfeaf6fab82a1ddb12885786" category="inline-image-macro">如果設定了錯誤的IOPS值、則會顯示錯誤訊息的快照。</block>
+  <block id="6885d04a0fda617d746b2123b3620e51" category="admonition">如果您指定的IOPS值不符合最低需求、則在新增工作環境時會收到錯誤訊息。<block ref="302f4fa129241cdd96ffd6dc709561e6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8088a4fa7d414a887d0eb3f19623bc06" category="inline-image-macro">設定FSX ONTAP for Sfing儲存組態的快照</block>
+  <block id="43135e6fbb293afbc21ffcb9200cd5ea" category="list-text">單擊 * 下一步 * 。<block ref="acedc649b329bc2fa4856a424e9ac8f3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c9a1d71e742483b14e29f7c2e43e1c64" category="list-text">檢閱您的組態：</block>
+  <block id="0308fb9d7cca24bdc3f9928245f79119" category="list-text">按一下這些索引標籤、檢視ONTAP 您的資訊功能、供應商屬性和網路組態。</block>
+  <block id="fded4515ce29ea3fdc954faa2784fe7f" category="list-text">按一下*上一個*以變更任何設定。</block>
+  <block id="b5bd94a09b2ad1fd2dba6c4a902a9fd3" category="list-text">按一下「*新增*」以接受設定並建立您的工作環境。</block>
+  <block id="ef80142d18e6c5a6d15e4724ab6810b8" category="inline-image-macro">檢閱FSX for ONTAP Sf還原 設定的快照</block>
+  <block id="e8b9477d45071756ecb4a2cc5082344a" category="paragraph"><block ref="e8b9477d45071756ecb4a2cc5082344a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa726dbeb2fe46e53fc49ecac75ac6d7" category="paragraph">Cloud Manager會ONTAP 在「畫版」頁面上顯示您的FSXfor支援的組態設定。</block>
+  <block id="45d8e5da7753a5571797f6a81a9c4e3c" category="inline-image-macro">Amazon FSX for ONTAP Sfor Sfor Sfor the工作日環境頁面上的快照。</block>
+  <block id="26682ff9a292960b61e97b937520b135" category="paragraph"><block ref="26682ff9a292960b61e97b937520b135" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="11fa7924f258843d0c6a8377f70c698c" category="paragraph">您現在ONTAP 可以使用Cloud Manager、將Volume新增至FSXfor Sfor Sfor Sfor工作環境。</block>
+  <block id="e69624fa729e14e6bbcae0cf7889e100" category="section-title">探索現有ONTAP 的FSX for Sf供 資料系統使用</block>
+  <block id="5a31f364855ed7d093e5ff0c2d6a0a6f" category="paragraph">如果ONTAP 您使用AWS管理主控台建立FSX for S廳 檔案系統、或是想要還原先前移除的工作環境、您可以使用Cloud Manager來探索它。</block>
+  <block id="3eb13290c3d1e4b57acf05410a485779" category="list-text">在Cloud Manager中、按一下*新增工作環境*、然後選取* Amazon Web Services*。</block>
+  <block id="6800849898be1086bb69e4658dd59629" category="list-text">選擇* Amazon FSX* for ONTAP Sfor Sfor Sfor *、然後按一下*按一下此處*。</block>
+  <block id="e574e1da19f282b48ebb67c362fbc5cc" category="inline-image-macro">探索Amazon FSX for ONTAP Sfa的工作環境的快照</block>
+  <block id="72e0dd6fd0d4009c79805d8504e7e490" category="paragraph"><block ref="72e0dd6fd0d4009c79805d8504e7e490" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="92362ba030c73cd6e20f4b4da71b26c3" category="list-text">選取現有認證或建立新認證。單擊 * 下一步 * 。</block>
+  <block id="4dc9c1030aab459d22cbeca85a77bd17" category="list-text">選取您要新增的AWS區域和工作環境。</block>
+  <block id="4d40b97424368fd2dcfa3beb51eac192" category="inline-image-macro">選取AWS區域和工作環境的快照</block>
+  <block id="daf8847714f7e326bcf10553bdbffa28" category="paragraph"><block ref="daf8847714f7e326bcf10553bdbffa28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">按一下「 * 新增 * 」。</block>
+  <block id="3fca24f4054dbd7b229807ef3910d4b7" category="paragraph">Cloud Manager會顯示您探索到的FSX ONTAP for Sfor Sficity檔案系統。</block>
+  <block id="b3fee7abcfd59e1f7a4b591d94eea26b" category="section-title">從ONTAP 工作區中移除FSXfor Sfor</block>
+  <block id="619c35c80b530c32704e964530d66517" category="paragraph">您可以從ONTAP Cloud Manager移除FSXfor Sfor支援、而不需刪除FSX for ONTAP S庫 帳戶或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sfor the Sf有效 工作環境新增回Cloud Manager。</block>
+  <block id="9ddaae0edb615f2995d27bd6e00976ce" category="list-text">開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續移除工作環境。</block>
+  <block id="960f6c85ef871302e3e408b649cf6e70" category="list-text">在頁面右上角、選取「動作」功能表、然後按一下「*從工作區移除*」。</block>
+  <block id="410c78448ff59a132a6ef7e7c2bf2f4e" category="inline-image-macro">從ONTAP Cloud Manager介面移除FSX for Sficity選項的快照。</block>
+  <block id="47f6e6061b4eadfbf907049dcd591b28" category="paragraph"><block ref="47f6e6061b4eadfbf907049dcd591b28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a3c7ec91e48d6cb0479b63af7c30a498" category="list-text">按一下「*移除*」、從ONTAP Cloud Manager移除FSX for Sfor</block>
+  <block id="2167c28c0f5b01d9e01bb4084f44d791" category="section-title">刪除FSX以利ONTAP 執行作業環境</block>
+  <block id="4de2a58fbc41a8206c0c53a3dd1da960" category="paragraph">您可以從ONTAP Cloud Manager刪除FSXfor Sfor</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
+  <block id="b917a1d8451423450873eef39565dca3" category="inline-link-macro">刪除所有Volume</block>
+  <block id="7b41e03b81e97660913781a8239006df" category="list-text">您必須 <block ref="54cc4f96ff154d8637a706e7f5511434" category="inline-link-macro-rx"></block> 與檔案系統相關聯。</block>
+  <block id="88b66180df4e558c94db0e4418e28d50" category="admonition">您將需要AWS中的作用中連接器來移除或刪除磁碟區。</block>
+  <block id="ef91377d933625cd5679a41980e84a7d" category="list-text">您無法刪除包含故障磁碟區的工作環境。在刪除FSX for ONTAP Sfi檔案系統之前、必須先使用AWS管理主控台或CLI刪除故障的磁碟區。</block>
+  <block id="264e33787c94efb543f65228a9b52512" category="admonition">此動作將會刪除與工作環境相關的所有資源。此動作無法復原。</block>
+  <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續刪除工作環境。</block>
+  <block id="5c026b5b99b1471c1695d12c5be5e3d9" category="list-text">在頁面右上角、選取「動作」功能表、然後按一下「*刪除*」。</block>
+  <block id="eea2ce15389bae978a0efc5763b9cdac" category="inline-image-macro">從ONTAP Cloud Manager介面刪除FSX for Sficity選項的快照。</block>
+  <block id="636c7339a775dda79a1b6b37974a27b3" category="paragraph"><block ref="636c7339a775dda79a1b6b37974a27b3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7c1e5f31ebf2bb33eb06de268374f840" category="list-text">輸入工作環境的名稱、然後按一下*刪除*。</block>
+  <block id="00b56458820e0abf51f147bc4e399a7e" category="summary">您可以使用ONTAP Cloud Manager來管理Volume、複製和快照、以及變更FSXfor Sfor Sfor的分層原則。</block>
+  <block id="7e8d943ffd901385b9eef24cb61b44b9" category="doc">管理Amazon FSX ONTAP for Sf.的Volume</block>
+  <block id="b29f6e00261f220f9ca9601a3dbc09df" category="section-title">編輯Volume</block>
+  <block id="b609b522164fd601ccb14538b7074e4e" category="paragraph">建立磁碟區之後、您可以隨時加以修改。</block>
+  <block id="e3c15b55dc36cad58edc7cb73ae80e2c" category="list-text">開啟Volume功能表、然後選取*編輯*。</block>
+  <block id="4ba141f8bd3c71509d32aaf3d8ae34d6" category="list-text">對於NFS、您可以修改大小和標記。</block>
+  <block id="ad348a3307068da0d1c8c03655a0d11e" category="list-text">對於CIFS、您可以視需要修改共用名稱、使用者、權限及Snapshot原則。</block>
+  <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">按一下「 * 套用 * 」。</block>
+  <block id="fee2a02b904d6d1f207e959dbd807a75" category="section-title">複製磁碟區</block>
+  <block id="6b94d8d9a10c7d18376b9f389dba9855" category="paragraph">建立磁碟區之後、您可以從新的Snapshot建立新的讀寫磁碟區。</block>
+  <block id="343bf0d675ca357b025fb7472514438f" category="list-text">開啟Volume功能表、然後選取* Clone（複製）*。</block>
+  <block id="5e5db467595563d87880b20fec615319" category="list-text">輸入複製磁碟區的名稱。</block>
+  <block id="8215bd5d2f1e1b1cb3002f32795c762e" category="list-text">按一下* Clone（複製）*。</block>
+  <block id="e479d2534f323a1275e2ed0809755e56" category="section-title">管理Snapshot複本</block>
+  <block id="13d23436eebf5663e94f902e862ce3bb" category="paragraph">Snapshot 複本提供磁碟區的時間點複本。建立Snapshot複本、並將資料還原至新磁碟區。</block>
+  <block id="c841bd422df65ac6f48f90c6d842cfc8" category="list-text">開啟Volume功能表、然後選擇其中一個可用選項來管理Snapshot複本：</block>
+  <block id="77920e8d9473162a2167976898eaa180" category="list-text">* 建立 Snapshot 複本 *</block>
+  <block id="fa41e2569b3e81d19868356601d4d103" category="list-text">*從Snapshot複本還原*</block>
+  <block id="df95b2ddbeefe0bd257bae9d1c7d663a" category="list-text">依照提示完成選取的動作。</block>
+  <block id="9f4aa892debf403a854859b0ca9c9ff6" category="section-title">變更分層原則</block>
+  <block id="3a2ff6a4c845ba47894d1dd10a1b908f" category="paragraph">變更磁碟區的分層原則。</block>
+  <block id="d5f25d8802c3b7804d35fc3426a2f809" category="list-text">開啟Volume功能表、然後選取*變更分層原則*。</block>
+  <block id="baef40813f00b62c8e9dcc643a76c881" category="list-text">選取新的磁碟區分層原則、然後按一下*變更*。</block>
+  <block id="016049d3662ab4f0c21871ed98f2bb37" category="section-title">複寫及同步資料</block>
+  <block id="abca63d751ec4cebd209af264e376ee4" category="inline-link">在系統之間複寫資料</block>
+  <block id="b2e8050cf49252f7b06bd379448c5e15" category="paragraph">您可以使用Cloud Manager在儲存環境之間複寫資料。若要設定FSXfor ONTAP Sfor Sfor S供 複寫、請參閱<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>。</block>
+  <block id="35931d34af92c203401fd4bb760eb1cf" category="inline-link">建立同步關係</block>
+  <block id="12fc3818f5e3f781c2bf4eb8b8d50ffc" category="paragraph">您可以使用Cloud Sync Cloud Manager中的功能、建立同步關係。若要設定同步關係、請參閱<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>。</block>
+  <block id="f91674f3b22216fc484532cd24dda908" category="section-title">刪除Volume</block>
+  <block id="9497c556620605c0441cf034ff68a527" category="paragraph">刪除不再需要的磁碟區。</block>
+  <block id="08d16a95ed82f881bcc5359ecb0c8769" category="paragraph">您無法使用Cloud Manager刪除先前屬於SnapMirror關係的磁碟區。SnapMirror磁碟區必須使用AWS管理主控台或CLI刪除。</block>
+  <block id="fa41d7948af66c69407c3a05211bb4b9" category="list-text">開啟Volume功能表、然後選取*刪除*。</block>
+  <block id="a1757cd330af9ddfc6b1f315176b17e9" category="list-text">輸入工作環境名稱、然後確認您要刪除該磁碟區。從Cloud Manager完全移除磁碟區可能需要一小時的時間。</block>
+  <block id="590368745da00a61c492e4b834d9568e" category="admonition">如果您嘗試刪除複製的Volume、將會收到錯誤訊息。</block>
+  <block id="80ff3e3b4817bcd801ad60d27676fed7" category="summary">Amazon FSX for NetApp ONTAP 功能將ONTAP 完整的功能整合至原生AWS託管服務、提供一致的混合雲體驗。本文件說明如何ONTAP 使用NetApp Cloud Manager來管理FSXfor Sfor。</block>
+  <block id="e7d8c0779e86c7c2edb0791a45906d17" category="doc">Amazon FSX以取得ONTAP 相關文件</block>
+  <block id="7a8c8dd27a87bf665545ae7d6521b93a" category="summary">Amazon FSX ONTAP for Sfin入門指南（僅需幾個步驟）。</block>
+  <block id="bf7ec532103402eaed4653738655f6ad" category="doc">Amazon FSX for ONTAP Sfor Sf.入門</block>
+  <block id="fbda414afc779c9e1e46c45b74091adb" category="paragraph">只ONTAP 要幾個步驟、就能開始使用FSXfor Sfor而已。</block>
+  <block id="2db8ac87c99d0b6932322889e2e22b9e" category="inline-link-macro">設定IAM角色、讓Cloud Manager SaaS能夠承擔角色</block>
+  <block id="9d662ce44c324aa67c253be893864c71" category="paragraph">在新增Volume之前、您必須先建立Amazon FSX for ONTAP Szing工作環境。您需要 <block ref="afb5d18769390df2b32a585a478c27d2" category="inline-link-macro-rx"></block>。</block>
+  <block id="fdf5c0db5e25841d90a9737c63c9172a" category="inline-link">AWS連接器</block>
+  <block id="885bf112deac8aef76c696fd4369622f" category="paragraph">您必須擁有<block ref="ee4793145cbadfb90a826d44d7b7a098" category="inline-link-rx"></block> 若要開啟FSXfor ONTAP the Sfor the Sfor the Sf12工作環境、建立磁碟區或執行其他動作。需要Connector時、Cloud Manager會在尚未新增連接器時提示您。</block>
+  <block id="173cc3f2694be1fa38808fdd8021304c" category="paragraph">您可以ONTAP 使用Cloud Manager建立適用於SfSX Volume的FSX。</block>
+  <block id="711497cf466e121cf263849d7f648140" category="paragraph">使用Cloud Manager來管理磁碟區、並設定其他服務、例如複寫、Cloud Sync 鏡像和Data Sense。</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">相關連結</block>
+  <block id="4d36bd7ea566aabab173cf25b707699a" category="inline-link">從 Cloud Manager 建立 Connector</block>
+  <block id="300de2fff5e8bf53f93ce557eb141f27" category="list-text"><block ref="300de2fff5e8bf53f93ce557eb141f27" category="inline-link-rx"></block></block>
+  <block id="de737ba84e61f1a8380fd351112b7183" category="inline-link">從 AWS Marketplace 啟動 Connector</block>
+  <block id="f184c656bf02dee61743212967601db4" category="list-text"><block ref="f184c656bf02dee61743212967601db4" category="inline-link-rx"></block></block>
+  <block id="c8f9fcb2d5c182f76e53507a00efe037" category="inline-link">在 Linux 主機上安裝 Connector 軟體</block>
+  <block id="86a342f075ca5d85dc5033d1092f71cd" category="list-text"><block ref="86a342f075ca5d85dc5033d1092f71cd" category="inline-link-rx"></block></block>
+  <block id="603ec1431df96260c06b8b0fc539dca4" category="summary">Amazon FSX for ONTAP Sfunch是一項完全託管的服務、可讓客戶啟動及執行採用NetApp ONTAP 的作業系統的檔案系統。FSX for ONTAP VMware提供NetApp客戶目前內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。</block>
+  <block id="43ece0944414298a29b4d72bc56373f1" category="doc">深入瞭解Amazon FSX for ONTAP Sf</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
+  <block id="2373ee05a5847e8f92338b8835c8a17b" category="paragraph"><block ref="96821e1e659978c978732a5dc24298ac" category="inline-link-macro-rx"></block> 是一項完整的託管服務、可讓客戶啟動及執行採用NetApp ONTAP 的一套資訊儲存作業系統的檔案系統。FSX for ONTAP VMware提供NetApp客戶在內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
+  <block id="5e63cf07e8c4e2bc02fec4b907bfcc00" category="list-text">無需設定或管理儲存設備、軟體或備份。</block>
+  <block id="620d7e4da65c27b65a66bca15517b802" category="list-text">支援CIFS、NFSv3、NFSv4.x及SMB v2.0 - v3.1.1傳輸協定。</block>
+  <block id="f6ad83cb7f527e383e392f709849a098" category="list-text">使用不常存取（IA）的可用儲存層、以低成本、幾乎不受限制的方式儲存資料容量。</block>
+  <block id="3c36508c8697f7ec7a94803545518d69" category="list-text">通過認證、可在對延遲敏感的應用程式（包括Oracle RAC）上執行。</block>
+  <block id="6c2a9ed4ea140413912e894a10672e01" category="list-text">可選擇搭售和隨用隨付定價。</block>
+  <block id="4b892d08b42aafcd301b83ab05b6e993" category="section-title">Cloud Manager 的其他功能</block>
+  <block id="7965f44d9657c905774d8d427141b845" category="list-text">使用AWS和Cloud Manager中的Connector、您可以建立及管理磁碟區、複寫資料、並將FSX for ONTAP 效益與NetApp雲端服務整合、例如Data Sense和Cloud Sync Sf4。</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="inline-link">深入瞭解</block>
+  <block id="d9bf9116e04a89e455600416ad7872f3" category="list-text">Cloud Data Sense採用人工智慧（AI）導向技術、可協助您瞭解資料內容、並識別位於FSX中的敏感資料、以利ONTAP 實現效益。<block ref="ff015941fa4b0cfada66f8159ed80c63" category="inline-link-rx"></block>。</block>
+  <block id="1f944a9ec2785c18a692aeedf9839548" category="list-text">使用NetApp Cloud Sync 解決方案、您可以將資料移轉自動化、移轉至雲端或內部部署的任何目標。<block ref="0d960aec46349f597fec0ba1ad479bc2" category="inline-link-rx"></block></block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
+  <block id="8bffb197ac66e59166722f267ae2aa89" category="inline-link">Amazon FSX for ONTAP Sf入門 指南</block>
+  <block id="b63f9ea0c064f36284d9518a04bb2394" category="paragraph">您的FSX for ONTAP Sfor Sfor支援帳戶由AWS維護、而非由Cloud Manager維護。<block ref="8ceb48ebb1fa83d69a24f299e3fde40a" category="inline-link-rx"></block></block>
+  <block id="bcde5e61b57c391c5832e7ea9a5bf2b1" category="paragraph">使用AWS中的Connector以及Cloud Sync 選用的資料服務（例如、支援功能和Data Sense）、需要額外的成本。</block>
+  <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">支援的地區</block>
+  <block id="d5b1044cbc510048a5dac270bde89ed5" category="inline-link">檢視支援的Amazon地區。</block>
+  <block id="ee9b3af8630059982f4d1dd2fd3834a3" category="paragraph"><block ref="ee9b3af8630059982f4d1dd2fd3834a3" category="inline-link-rx"></block></block>
+  <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">取得協助</block>
+  <block id="adae5e92a515a3174e9058a6b8179a41" category="paragraph">Amazon FSX ONTAP for Sf1是AWS的第一方解決方案。如有任何疑問或技術支援問題、請使用AWS FSX檔案系統、基礎架構或任何使用此服務的AWS解決方案、使用AWS主控台的Support Center開啟AWS的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。</block>
+  <block id="1db5f4a1a813c32af28e132cf45cac0f" category="paragraph">對於Cloud Manager或Cloud Manager微服務的一般問題、您可以從線上Cloud Manager聊天開始。</block>
+  <block id="409924e4cb5560dcfd0701e1ac237826" category="paragraph">如需Cloud Manager或內部微服務專屬的技術支援問題、您可以使用Cloud Manager帳戶層級序號來開啟NetApp支援服務單。您需要註冊Cloud Manager序號、才能啟動支援。</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
+  <block id="0fad775ed670ca6bde434fb3d471a64d" category="list-text">Cloud Manager只能從內部部署或Cloud Volumes ONTAP 從功能複製資料到ONTAP 功能複製功能以供參考的FSX。</block>
+  <block id="067fe115499332ebd701781ed653d1f8" category="list-text">此時、您可以使用ONTAP 支援的CLI、ONTAP 介紹API或Cloud Manager API來建立iSCSI磁碟區。</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
+  <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">Cloud Manager 3.9 注意事項</block>
+  <block id="c069fcc68c5dfa73ccc99924c836cae9" category="list-text"><block ref="c069fcc68c5dfa73ccc99924c836cae9" category="inline-link-macro-rx"></block></block>
+  <block id="72999cd653b12474752fb77bab9691e3" category="inline-link-macro">雲端備份注意事項</block>
+  <block id="75be9a02506771b87be972c89707f0d4" category="list-text"><block ref="75be9a02506771b87be972c89707f0d4" category="inline-link-macro-rx"></block></block>
+  <block id="bf6a36d1f8c7b0ef48e5a5b01357f720" category="inline-link-macro">關於本產品的注意事項 Cloud Sync</block>
+  <block id="c9c82aba1257ee6c6ebbade2353f0b0d" category="list-text"><block ref="c9c82aba1257ee6c6ebbade2353f0b0d" category="inline-link-macro-rx"></block></block>
+  <block id="a5e8ac089fe7eb702f683ce020dc2a2a" category="inline-link-macro">雲端分層注意事項</block>
+  <block id="3754b5e44654d3dc7bfaa36f213a8795" category="list-text"><block ref="3754b5e44654d3dc7bfaa36f213a8795" category="inline-link-macro-rx"></block></block>
+  <block id="73f420c03909a74fdc36f2bebeb15d52" category="inline-link-macro">Cloud Data Sense注意事項</block>
+  <block id="ef4a4eef354631d5e99b3e1ea91d46d7" category="list-text"><block ref="ef4a4eef354631d5e99b3e1ea91d46d7" category="inline-link-macro-rx"></block></block>
+  <block id="27210695b4aa1995052b8f142c07c5f6" category="summary">瞭解Amazon FSX for ONTAP Sf2的新功能。</block>
+  <block id="a04f5ee3ae030d60ed2d9e76b7b821ff" category="doc">Amazon FSX for ONTAP Sfor Sf2的新功能</block>
+  <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022年2月27日</block>
+  <block id="3152521594c71809f9c72383294b05b7" category="section-title">承擔IAM角色</block>
+  <block id="1bae6acf64b673783a7e55db59c7f74e" category="paragraph">當您建立FSXfor ONTAP the Sfor the Syn可使用 環境時、您現在必須提供IAM角色的ARN、Cloud Manager可用來建立FSXfor ONTAP the Synfrole工作環境。您先前需要提供AWS存取金鑰。</block>
+  <block id="f63d604edef29843d35ad367e0d82814" category="inline-link-macro">瞭解如何設定FSX for ONTAP Sfor Sfor Sfor的權限</block>
+  <block id="85f610955384d6c0dcae09552c4508e0" category="paragraph"><block ref="121317bac1802e026b9ea68cbe410489" category="inline-link-macro-rx"></block>。</block>
+  <block id="784044bd2af30d58bbb0dbcea3adbad6" category="section-title">2021年10月31日</block>
+  <block id="5b80dcfe3dbe5a2279a764bb895220e8" category="section-title">使用Cloud Manager API建立iSCSI Volume</block>
+  <block id="c9901681b19037cfe4d776eb572a7a6b" category="paragraph">您可以ONTAP 使用Cloud Manager API為FSX建立iSCSI Volume以供使用、並在工作環境中加以管理。</block>
+  <block id="1b06c7a9314e682b34302ac90d6d6650" category="section-title">建立Volume時、請選取Volume單位</block>
+  <block id="155385bf6757f064143eb321fbfd3bff" category="inline-link-macro">建立磁碟區時、請選取Volume單位（GiB或TiB）</block>
+  <block id="bdc6d93b4370ea76238df491d9d141c4" category="paragraph">您可以 <block ref="88fc27d29fd6019ad989d255373b75d1" category="inline-link-macro-rx"></block> FSX ONTAP for Sfor Sf.</block>
+  <block id="d1c47d8bf748c203ff983262e6c108cb" category="section-title">2021年10月4日</block>
+  <block id="2ac9dc8f932fa4bebfc31724e388e13a" category="section-title">使用Cloud Manager建立CIFS Volume</block>
+  <block id="901f92bd8486511c3943b59dd9b9f6a4" category="inline-link-macro">使用ONTAP Cloud Manager在FSXF中建立CIFS Volume以供其使用</block>
+  <block id="8cb898147f5ef32e49709138a0ee48c6" category="paragraph">現在您可以了 <block ref="98c695f1949c26a2dd10f3c98347e43b" category="inline-link-macro-rx"></block>。</block>
+  <block id="1664cbd7cbe0abbcd6d133e652cd42c1" category="section-title">使用Cloud Manager編輯Volume</block>
+  <block id="7a6930a21ad40feae487321aef61a969" category="inline-link-macro">使用ONTAP Cloud Manager編輯FSXfor Sf2 Volume</block>
+  <block id="b233fccd6a0e80b0628c8b760f808f80" category="paragraph">現在您可以了 <block ref="4f9c429b7c1519954500e41db7985c1c" category="inline-link-macro-rx"></block>。</block>
+  <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021年9月2日</block>
+  <block id="6c88f9e17d9019e00177d64f9db55d2e" category="section-title">支援Amazon FSX for ONTAP Sfy</block>
+  <block id="a0e08ea7f36fd675a07b353350648fbe" category="list-text"><block ref="040983c31c5d3aff2795da28b0ee5564" category="inline-link-macro-rx"></block> 是一項完整的託管服務、可讓客戶啟動及執行採用NetApp ONTAP 的一套資訊儲存作業系統的檔案系統。FSX for ONTAP VMware提供NetApp客戶在內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。</block>
+  <block id="b84e3c9bb4ac9216f14349e3b5be8ec3" category="paragraph"><block ref="173ddc048bd16ccfb71d77420d7581cb" category="inline-link-macro-rx"></block>。</block>
+  <block id="9d2704a937df8ec429bf2446953b2687" category="list-text">您可以在ONTAP Cloud Manager中設定FSXfor Sfor Sfor Sfor Sf有效 工作環境。</block>
+  <block id="b7dd73bfb5bbb0ec2884525999924384" category="paragraph"><block ref="e85a369c316ea87dc3d5da27638bd157" category="inline-link-macro-rx"></block>。</block>
+  <block id="eddf71c2364cb70dc54a32723a344817" category="inline-link-macro">開始瞭解Cloud Data Sense for Amazon FSX ONTAP for Sf</block>
+  <block id="d35e6fa404873b4a616b1313e98cf3d9" category="paragraph"><block ref="6e3374d20d69610b03c5ed3fa5af9a08" category="inline-link-macro-rx"></block>。</block>
+  <block id="e55bdaae79868c01c7cc36c1283eb425" category="summary">Cloud Manager會建立AWS安全性群組、其中包含Cloud Manager和FSXfor ONTAP the支援成功運作所需的傳入和傳出規則。您可能需要參照連接埠進行測試、或是需要使用自己的連接埠。</block>
+  <block id="e87d6ed459b274ad7c388e0797013c9f" category="doc">FSXfor ONTAP Sfor Sf.的安全群組規則</block>
+  <block id="9f415057e43c73d4e37a0068a0ca9486" category="section-title">FSXfor ONTAP Sfor Sfor Sf.的規則</block>
+  <block id="a4f557d4dc5603464fae9d733ed96263" category="paragraph">FSX for ONTAP Sfor Sfor Sfor Sfor Security群組需要傳入和傳出規則。此圖說明FSXfor ONTAP EfuS網路 組態和安全性群組需求。</block>
+  <block id="804e1541ef4556a247ad9499202fb6e2" category="inline-image-macro">FSX圖表、適用於ONTAP 不穩定安全群組組組態。</block>
+  <block id="bca6ab005ba14ce4d09f6862e9acbd0d" category="paragraph"><block ref="bca6ab005ba14ce4d09f6862e9acbd0d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="666efafa7314f1d36acc1873a7effea1" category="paragraph">您需要使用AWS管理主控台來找出與Enis相關的安全性群組。</block>
+  <block id="c92acc92060e36c3ae0a3a3122e468f4" category="list-text">在ONTAP AWS管理主控台開啟FSXfor S廳 檔案系統、然後按一下檔案系統ID連結。</block>
+  <block id="d2d5e146dd6d2c739d48382f6d5819c9" category="inline-image-macro">AWS管理主控台的FSX檔案系統ID快照。</block>
+  <block id="cca060d5cddf22c436c0562c0973058c" category="paragraph"><block ref="cca060d5cddf22c436c0562c0973058c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5632127664c2b29ceeab7c876c04cb44" category="list-text">在*網路與安全性*索引標籤上、按一下偏好的或待命子網路的網路介面ID。</block>
+  <block id="6327ad0d858ec91f26ade294f909e613" category="inline-image-macro">FSX for ONTAP SENI ID的快照。</block>
+  <block id="1e4b8ac6263ef6c244c27218023baf3d" category="paragraph"><block ref="1e4b8ac6263ef6c244c27218023baf3d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ffd35e1082660bfc05812c970b3ce90c" category="list-text">按一下網路介面表中的安全性群組或網路介面的*詳細資料*區段。</block>
+  <block id="e3771f1e1acdf77c7948d3e7e2810d3c" category="inline-image-macro">FSX for ONTAP the Sof the Sof the Sof the Sof the FSof the Security Group ID（</block>
+  <block id="89730a660159734979b6ba72583ec695" category="paragraph"><block ref="89730a660159734979b6ba72583ec695" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1b3884b38c271fe13c8142e1355e4523" category="section-title">傳入規則</block>
+  <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">傳輸協定</block>
+  <block id="60aaf44d4b562252c04db7f98497e9aa" category="cell">連接埠</block>
+  <block id="261addf78c7b2c961032b3dd08ba0b1f" category="cell">目的</block>
+  <block id="d4b4ed7579a4f9267cc7dff8a948018e" category="cell">所有 ICMP</block>
+  <block id="b1c94ca2fbc3e78fc30069c8d0f01680" category="cell">全部</block>
+  <block id="fbabb5b35538d91f91e0e1d4f56ff5a4" category="cell">Ping 執行個體</block>
+  <block id="293c9ea246ff9985dc6f62a650f78986" category="cell">HTTP</block>
+  <block id="f033ab37c30201f73f142449d037028d" category="cell">80</block>
+  <block id="ababfee3bb5ff05f9b0368cea51ee877" category="cell">使用叢集管理 LIF 的 IP 位址、以 HTTP 存取 System Manager Web 主控台</block>
+  <block id="0e8433f9a404f1f3ba601c14b026d321" category="cell">HTTPS</block>
+  <block id="13f3cf8c531952d72e5847c4183e6910" category="cell">443..</block>
+  <block id="292d4f8112774cc3427c6a7da0cce58b" category="cell">使用叢集管理 LIF 的 IP 位址、以 HTTPS 存取 System Manager 網路主控台</block>
+  <block id="765553e6c7ac8592c389acb9878a050a" category="cell">SSH</block>
+  <block id="b6d767d2f8ed5d21a44b0e5886680cb9" category="cell">22</block>
+  <block id="68e68bb8029eb3e7ed079fea7b679d99" category="cell">SSH 存取叢集管理 LIF 的 IP 位址或節點管理 LIF</block>
+  <block id="b136ef5f6a01d816991fe3cf7a6ac763" category="cell">TCP</block>
+  <block id="698d51a19d8a121ce581499d7b701668" category="cell">111.</block>
+  <block id="42309a274997c44da61b489d9df7edc8" category="cell">遠端程序需要 NFS</block>
+  <block id="e00da03b685a0dd18fb6a08af0923de0" category="cell">139.</block>
+  <block id="f578101933ae5aa506411a00b33b06ec" category="cell">CIFS 的 NetBios 服務工作階段</block>
+  <block id="ff86b94aeb68e2de5387c9dbf865b3b9" category="cell">161-162</block>
+  <block id="e0215167b05004bf68d7d23d0a15605c" category="cell">簡單的網路管理傳輸協定</block>
+  <block id="67f7fb873eaf29526a11a9b7ac33bfac" category="cell">445</block>
+  <block id="100c97ce556d60c86e5d8b424c3ed3ad" category="cell">Microsoft SMB/CIFS over TCP 搭配 NetBios 架構</block>
+  <block id="6a10bbd480e4c5573d8f3af73ae0454b" category="cell">635</block>
+  <block id="718b3fb251c2987c99ce9d2d23eb38b6" category="cell">NFS 掛載</block>
+  <block id="b056eb1587586b71e2da9acfe4fbd19e" category="cell">749</block>
+  <block id="87b3695bfd6f672e2c7c4da7ca2b46a8" category="cell">Kerberos</block>
+  <block id="06b1338ba02add2b5d2da67663b19ebe" category="cell">2049</block>
+  <block id="02c69a3a7485c8d2f899c2eb58f8be50" category="cell">NFS 伺服器精靈</block>
+  <block id="d54ce9de9df77c579775a7b6b1a4bdc0" category="cell">3260</block>
+  <block id="decc72453fd5881c6144ead65577abe0" category="cell">透過 iSCSI 資料 LIF 存取 iSCSI</block>
+  <block id="ee0e95249268b86ff2053bef214bfeda" category="cell">4045</block>
+  <block id="3efa34cc491e9e34264231984db1c224" category="cell">NFS 鎖定精靈</block>
+  <block id="354ac345fd8c6d7ef634d9a8e3d47b83" category="cell">4046</block>
+  <block id="6e1768e34172523fffe5e878d95f0f1a" category="cell">NFS 的網路狀態監控</block>
+  <block id="b7a782741f667201b54880c925faec4b" category="cell">10000</block>
+  <block id="9f6c516b5f5492bbbe0bfa8167ac3c38" category="cell">使用 NDMP 備份</block>
+  <block id="bf03faf089665754a8af5dce381a42ca" category="cell">11104.</block>
+  <block id="0f98f191f6139c531c1435214b55de48" category="cell">管理 SnapMirror 的叢集間通訊工作階段</block>
+  <block id="f0f07e680de407b0f12abf15bd520097" category="cell">11105.</block>
+  <block id="d03bcbb93f8e29ffb08772b43b55d234" category="cell">使用叢集間生命體進行 SnapMirror 資料傳輸</block>
+  <block id="f5ef036b4d8b630721e51fe23489fbc9" category="cell">UDP</block>
+  <block id="89a4779d3836ea432f7ea074e522a17e" category="cell">4049</block>
+  <block id="ec29b09319bcf28d103f2dda2dae3590" category="cell">NFS rquotad 傳輸協定</block>
+  <block id="7fcf8a20eb9257fce9235438893a7754" category="section-title">傳出規則</block>
+  <block id="86c7c9c5b63a1a193b47895ff9b75eee" category="paragraph">針對FSXfor ONTAP Sfor Sfor支援的預先定義安全性群組會開啟所有傳出流量。如果可以接受、請遵循基本的傳出規則。如果您需要更嚴格的規則、請使用進階的傳出規則。</block>
+  <block id="d4dc7fa133657e4530cfde55110ec3c1" category="section-title">基本傳出規則</block>
+  <block id="901e926561772e4303bdb71ec6f8f7b5" category="paragraph">針對FSXfor ONTAP Sfor Sfor FSfor的預先定義安全性群組包括下列傳出規則。</block>
+  <block id="a3c775b853cb7264d143451380d3e164" category="cell">所有傳出流量</block>
+  <block id="170100eb6e4338b75a2fc06f87f9e5a4" category="cell">所有 TCP</block>
+  <block id="d78c51305ff97e9da7f4c5cb3d1d3453" category="cell">所有的 udp</block>
+  <block id="e2f58f5baabc821fa8bdc13a96184016" category="section-title">進階傳出規則</block>
+  <block id="5e1a521c9d06fa71faeacb00ad3819f7" category="paragraph">您不需要開啟特定的連接埠來進行中介、也不需要在FSXfor ONTAP Sfor Sf/節點之間開啟。</block>
+  <block id="d0fb2d0bd8bf6909549b5e1a987f783c" category="admonition">來源是FSXfor ONTAP Sfor the系統上的介面（IP位址）。</block>
+  <block id="c2ba7e785c49050f48da9aacc45c2b85" category="cell">服務</block>
+  <block id="f31bbdd1b3e85bccd652680e16935819" category="cell">來源</block>
+  <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">目的地</block>
+  <block id="4fbbbcdfcdfad5270a20167c67509f0b" category="cell">Active Directory</block>
+  <block id="2a38a4a9316c49e5a833517c45d31070" category="cell">88</block>
+  <block id="e2578ec54f85b5b6333c94364b756a1c" category="cell">節點管理 LIF</block>
+  <block id="b81acdd12d819432acb7f548eb3359be" category="cell">Active Directory 樹系</block>
+  <block id="fa0b1696f093aa6d80fa11d7607fcf3d" category="cell">Kerberos V 驗證</block>
+  <block id="3988c7f88ebcb58c6ce932b957b6f332" category="cell">137.</block>
+  <block id="a5284329103adcae2bd4f84ad4e5c162" category="cell">NetBios 名稱服務</block>
+  <block id="013d407166ec4fa56eb1e1f8cbe183b9" category="cell">138</block>
+  <block id="f50f261c93b1d23352fa830e183dc6ad" category="cell">NetBios 資料報服務</block>
+  <block id="2aa976707cd5d2da05a9dae859536870" category="cell">NetBios 服務工作階段</block>
+  <block id="f8dc77f2ac2f7272dc57dd5689ee9d63" category="cell">TCP 與 UDP</block>
+  <block id="c86a7ee3d8ef0b551ed58e354a836f2b" category="cell">389</block>
+  <block id="2363dee608bcd9f6ce7f980bfdad5789" category="cell">LDAP</block>
+  <block id="f1b6f2857fb6d44dd73c7041e0aa0f19" category="cell">464.64</block>
+  <block id="18eb444b6b771bcc91c4997659263d7d" category="cell">Kerberos V 變更及設定密碼（ Set_change ）</block>
+  <block id="7f54d18f39188eef294de01d335410b6" category="cell">Kerberos 金鑰管理</block>
+  <block id="fcf186ee373ced14cf707bef511852d3" category="cell">Kerberos V 變更與設定密碼（ RPCSEC_GSS ）</block>
+  <block id="6d9f458ee15a53b8195aff0ff180a97c" category="cell">資料 LIF （ NFS 、 CIFS 、 iSCSI ）</block>
+  <block id="eebce435de7129d8316b4c6a0e9f9fcc" category="cell">資料 LIF （ NFS 、 CIFS ）</block>
+  <block id="b6e33b393b9cea9f4b5807f4d2cdf335" category="cell">Kerberos V 變更及設定密碼（ RPCSEC_GSS ）</block>
+  <block id="a58f484608b0d692f1839295a398638d" category="cell">備份至 S3</block>
+  <block id="999028872cfff7ae8ee330a33cbd3874" category="cell">5010.</block>
+  <block id="54f7d853bcd07992f133218c21a038be" category="cell">叢集間 LIF</block>
+  <block id="55de3994e99aa970c849c53bc4429da9" category="cell">備份端點或還原端點</block>
+  <block id="4c62d4e66380262ec50ccc7b5d1acc02" category="cell">備份與還原備份至 S3 功能的作業</block>
+  <block id="54201c55d2bdc7a9e19d9e032d8c0ede" category="cell">DHCP</block>
+  <block id="a3f390d88e4c41f2747bfa2f1b5f87db" category="cell">68</block>
+  <block id="74d297edd733ae756164d870a3d2f03f" category="cell">第一次設定的 DHCP 用戶端</block>
+  <block id="0feb3d8c92089db9cb12a059ed24887e" category="cell">DHCPS</block>
+  <block id="735b90b4568125ed6c3f678819b6e058" category="cell">67</block>
+  <block id="88affaeab6cd17bcddbccca01098cf9b" category="cell">DHCP 伺服器</block>
+  <block id="ed5f2bdecbd4bd349d09412d1ff6a6fb" category="cell">DNS</block>
+  <block id="d82c8d1619ad8176d665453cfb2e55f0" category="cell">53.</block>
+  <block id="b0ddb9a92b68188222c131b7e0574f48" category="cell">節點管理 LIF 與資料 LIF （ NFS 、 CIFS ）</block>
+  <block id="aae155889087fca42368d9fab8b54ee6" category="cell">NDMP</block>
+  <block id="81da9c1cda736bbbff7737e1ccec2d84" category="cell">18600 – 18699</block>
+  <block id="ed50214bfedbe04d48e6bd8cc239ce46" category="cell">目的地伺服器</block>
+  <block id="4414d24afb3e6422813f5bc1dfcc2a8f" category="cell">NDMP 複本</block>
+  <block id="c2239a92bde29f0a9f9173193cc2fe00" category="cell">SMTP</block>
+  <block id="8e296a067a37563370ded05f5a3bf3ec" category="cell">25</block>
+  <block id="ef860b6ef144db3d9fdffc1170a30575" category="cell">郵件伺服器</block>
+  <block id="89f77914d604e82953b4d93ead2ac4d4" category="cell">可以使用 SMTP 警示 AutoSupport 來執行功能</block>
+  <block id="305af65222ed3fff91f5c8bcdfe17162" category="cell">SNMP</block>
+  <block id="bd4c9ab730f5513206b999ec0d90d1fb" category="cell">161.</block>
+  <block id="179d1420741d9e1a433e0f60c9f18ff1" category="cell">監控伺服器</block>
+  <block id="a59e525e47c5c408e5fe28ddc631c55c" category="cell">透過 SNMP 設陷進行監控</block>
+  <block id="82aa4b0af34c2313a562076992e50aa3" category="cell">162%</block>
+  <block id="794cb725c5631ad99b5b7c000307f0df" category="cell">SnapMirror</block>
+  <block id="928bd5c4260637c2acb46ce8c05c8237" category="cell">叢集間 LIF ONTAP</block>
+  <block id="ba9466624e66e8efa9852c49cc227e4d" category="cell">SnapMirror 資料傳輸</block>
+  <block id="6da6e44dc9987246944fdf9de3d4e794" category="cell">系統記錄</block>
+  <block id="59b90e1005a220e2ebc542eb9d950b1e" category="cell">514</block>
+  <block id="74082482ea0cad59170e3d4dce025b4e" category="cell">系統記錄伺服器</block>
+  <block id="a21848ca8e1b04c74552ca38f4284f2b" category="cell">系統記錄轉送訊息</block>
+  <block id="75fb76c71939b7f9f3ee363c4aec2044" category="section-title">Connector 規則</block>
+  <block id="0fbb894005047753551829b93d408eac" category="paragraph">Connector 的安全性群組需要傳入和傳出規則。</block>
+  <block id="7dca630291dc35d5447daa0c9abf8da4" category="cell">提供對 Connector 主機的 SSH 存取權</block>
+  <block id="e41468f89241b53dc9a8cebeff010b25" category="cell">提供HTTP存取、從用戶端網頁瀏覽器存取本機使用者介面、以及從Cloud Data Sense連線</block>
+  <block id="2f0c197eb73a7c6da10b03384f241025" category="cell">提供 HTTPS 存取、從用戶端網頁瀏覽器存取本機使用者介面</block>
+  <block id="dff8e9c2ac33381546d96deea9922999" category="cell">3128</block>
+  <block id="187604dd1244abc6ff03471775e9f32d" category="cell">如果您的AWS網路不使用NAT或Proxy、則可提供Cloud Data Sense執行個體以存取網際網路</block>
+  <block id="f27967c4c8769094dfb727988a22cbfa" category="paragraph">Connector 的預先定義安全性群組會開啟所有傳出流量。如果可以接受、請遵循基本的傳出規則。如果您需要更嚴格的規則、請使用進階的傳出規則。</block>
+  <block id="422c84262f431352e9da45084016a52c" category="paragraph">Connector 的預先定義安全性群組包括下列傳出規則。</block>
+  <block id="4c7e4350b2ac4e79ecdf1d8f33b2d41e" category="paragraph">如果您需要嚴格的傳出流量規則、可以使用下列資訊、僅開啟連接器傳出通訊所需的連接埠。</block>
+  <block id="a94c44d83136ca0aa23c397adb28b116" category="admonition">來源 IP 位址為 Connector 主機。</block>
+  <block id="03b9930526cd7e3fa4aafa64244d7957" category="cell">Active Directory Kerberos V 變更及設定密碼（ RPCSEC_GSS ）</block>
+  <block id="241b5fab8e737eaa79c543efe7307059" category="cell">API 呼叫與 AutoSupport 功能</block>
+  <block id="096a28c32a85d3d48462b468a3700d9a" category="cell">傳出網際網路和 ONTAP 叢集管理 LIF</block>
+  <block id="756da060e5d58870fc2d28d4b7bc9a45" category="cell">API 呼叫 AWS 和 ONTAP es供 、並傳送 AutoSupport 不只是功能的訊息給 NetApp</block>
+  <block id="22043367a89ddcf3eb99eec509a967ba" category="cell">API 呼叫</block>
+  <block id="172ef5a94b4dd0aa120c6878fc29f70c" category="cell">8088</block>
+  <block id="168342a53455f99d5b1d8d7d95e99567" category="cell">API 呼叫備份至 S3</block>
+  <block id="dd8679112f038315d04028c46da1fef7" category="cell">用於 Cloud Manager 的 DNS 解析</block>
+  <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="cell">雲端資料感測</block>
+  <block id="6cf25d0dcbf586ed6aff3b930e4d8019" category="cell">Cloud Data Sense執行個體</block>
+  <block id="059ace13ef3980df592dafb754ef8883" category="cell">Cloud Data Sense for Cloud Volumes ONTAP 功能</block>
+  <block id="f6ebedc10f620647623a6be7cd7cb8a5" category="summary">為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工作環境中、您需要使用AWS存取金鑰和機密金鑰、才能讓IAM使用者角色具備FSX for ONTAP Sfor FIf各項 權限。</block>
+  <block id="8fad3d94a3385eeb6406613f49896cdd" category="doc">設定FSXfor ONTAP Sfor Sfor的權限</block>
+  <block id="b84143bbdad7df35ec2c66cf2071f420" category="paragraph">若要建立或管理Amazon FSX for ONTAP the Sfor the Synfrole工作環境、您需要提供IAM角色的ARN、讓Cloud Manager擁有建立FSX for ONTAP the Synfrole環境所需的權限、才能將AWS認證新增至Cloud Manager。</block>
+  <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">設定IAM角色</block>
+  <block id="d9a499196547b3d025fe2a7d3c56baa1" category="paragraph">設定IAM角色、讓Cloud Manager SaaS能夠承擔角色。</block>
+  <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">前往目標帳戶中的IAM主控台。</block>
+  <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">在「存取管理」下、按一下*「角色」&gt;「建立角色」*、然後依照步驟建立角色。</block>
+  <block id="e1a3d580d5cb42904b96dc05c0e0903d" category="paragraph">請務必執行下列動作：</block>
+  <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">在*信任的實體類型*下、選取* AWS帳戶*。</block>
+  <block id="7d85138efc851d16b36fe016a7d406df" category="list-text">選取*其他AWS帳戶*、然後輸入Cloud Manager SaaS的ID：952013314444.</block>
+  <block id="30c558b7179a7e55ad7f3ae5ca262466" category="list-text">建立包含下列權限的原則：</block>
+  <block id="e08f06cebc90d5cc269f643f2df5ab95" category="list-text">複製IAM角色的角色ARN、以便在下一步將其貼到Cloud Manager中。</block>
+  <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">IAM角色現在擁有所需的權限。</block>
+  <block id="36bc52aaebad43ec3e49ed9a0efacd43" category="section-title">新增認證資料</block>
+  <block id="497de2fdf34143e76f1d2110f9556188" category="paragraph">在您提供IAM角色所需的權限之後、請將角色ARN新增至Cloud Manager。</block>
+  <block id="5138a631dd35ae5628a6137742d99bcc" category="paragraph">如果您剛建立IAM角色、可能需要幾分鐘的時間才能使用。請稍候幾分鐘、再將認證資料新增至Cloud Manager。</block>
+  <block id="660dd8cc813d5a986fc14efa52264b91" category="list-text">在 Cloud Manager 主控台右上角、按一下「設定」圖示、然後選取 * 認證 * 。</block>
+  <block id="4305773753b9ba702b13934db50507c2" category="inline-image-macro">顯示 Cloud Manager 主控台右上角「設定」圖示的快照。</block>
+  <block id="e595ee8d0b73c843696b78f80de0bad2" category="paragraph"><block ref="e595ee8d0b73c843696b78f80de0bad2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">按一下*「Add Credential*（新增認證*）」、然後依照精靈中的步驟進行。</block>
+  <block id="15d1c1365d4f855b7d77c93232a59906" category="list-text">*認證資料位置*：選取* Amazon Web Services &gt; Cloud Manager*。</block>
+  <block id="8cf335d7d3b1dd5cdac30699d20489c0" category="list-text">*定義認證資料*：提供IAM角色的ARN（Amazon資源名稱）。</block>
+  <block id="cc993521b8909c4085841bf25067d9c0" category="list-text">*審查*：確認新認證資料的詳細資料、然後按一下*新增*。</block>
+  <block id="c0abab76d53e87b10c7a7de184fc0f53" category="paragraph">您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。</block>
+  <block id="97911b3c54a4e826b34c1f79026316c5" category="inline-link">AWS 認證與權限</block>
+  <block id="3d3e910b68a6f9dc68d007376e0dae47" category="list-text"><block ref="3d3e910b68a6f9dc68d007376e0dae47" category="inline-link-rx"></block></block>
+  <block id="6bccb09f2c81a00c03cd35c87a54b03f" category="inline-link">管理Cloud Manager的AWS認證資料</block>
+  <block id="0f9f43c114be6c5746b95fa092ad10b2" category="list-text"><block ref="0f9f43c114be6c5746b95fa092ad10b2" category="inline-link-rx"></block></block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
+  <block id="69f7f21f4fc680b59f6e889bf9547523" category="sidebar">Amazon FSX for ONTAP Sfedocs</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
+  <block id="bff0ab4dab26d38051ade7a231a2a6f2" category="sidebar">深入瞭解FSXfor ONTAP Sfor Sfor</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速入門</block>
+  <block id="767c313289c6f36a3348709b853c6020" category="sidebar">使用Amazon FSX ONTAP for Sfuse</block>
+  <block id="b717787f66ea65a295fc51e1e85baeb1" category="sidebar">建立及管理工作環境</block>
+  <block id="9be5a2eae9bab39aee7d0161c137cd43" category="sidebar">建立及掛載磁碟區</block>
+  <block id="ba96e9a97f70e26f5839a4ab40b0081b" category="sidebar">管理磁碟區和資料服務</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="6b5b1212807dea3d5cd6a3fb67f2d1d6" category="sidebar">建立及管理工作環境</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
+  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central部落格</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
+</blocks>
