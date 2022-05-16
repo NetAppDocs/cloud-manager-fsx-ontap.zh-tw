@@ -534,10 +534,11 @@
   <block id="9be5a2eae9bab39aee7d0161c137cd43" category="sidebar">建立及掛載磁碟區</block>
   <block id="ba96e9a97f70e26f5839a4ab40b0081b" category="sidebar">管理磁碟區和資料服務</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
-  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="6b5b1212807dea3d5cd6a3fb67f2d1d6" category="sidebar">建立及管理工作環境</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
+  <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="sidebar">設定權限</block>
+  <block id="390a3dfacd9551e05363b9eb09a0464c" category="sidebar">安全性群組規則</block>
 </blocks>
