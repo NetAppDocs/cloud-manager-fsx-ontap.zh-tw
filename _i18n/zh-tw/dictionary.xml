@@ -541,4 +541,5 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="sidebar">設定權限</block>
   <block id="390a3dfacd9551e05363b9eb09a0464c" category="sidebar">安全性群組規則</block>
+  <block id="5e89288adba0036bb013893540161d9f" category="list-text">目前ONTAP 、使用CLI支援來自FSXfor Sfor Sf2的SnapMirror複寫。</block>
 </blocks>
