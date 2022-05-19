@@ -53,10 +53,7 @@ image:screenshot-fsx-security-group-id.png["FSX for ONTAP the Sof the Sof the So
 | 所有 ICMP | 全部 | Ping 執行個體 
 
 
-| HTTP | 80 | 使用叢集管理 LIF 的 IP 位址、以 HTTP 存取 System Manager Web 主控台 
-
-
-| HTTPS | 443.. | 使用叢集管理 LIF 的 IP 位址、以 HTTPS 存取 System Manager 網路主控台 
+| HTTPS | 443.. | 從Connector存取fsxadmin管理LIF、將API呼叫傳送至FSX 
 
 
 | SSH | 22 | SSH 存取叢集管理 LIF 的 IP 位址或節點管理 LIF 
