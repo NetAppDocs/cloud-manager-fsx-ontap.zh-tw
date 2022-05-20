@@ -539,6 +539,7 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="sidebar">設定權限</block>
   <block id="390a3dfacd9551e05363b9eb09a0464c" category="sidebar">安全性群組規則</block>
-  <block id="5e89288adba0036bb013893540161d9f" category="list-text">目前ONTAP 、使用CLI支援來自FSXfor Sfor Sf2的SnapMirror複寫。</block>
   <block id="1960d6022dcb5a2b9a687d1f6cbd8931" category="cell">從Connector存取fsxadmin管理LIF、將API呼叫傳送至FSX</block>
+  <block id="63b0ed0469bbbea547bdb73446ef6e8f" category="inline-link-macro">支援ONTAP 使用CLI</block>
+  <block id="8e134e23e64a574b08ee8f4a104b33a7" category="list-text">目前、來自FSXfor ONTAP Sfor Sfis的SnapMirror複寫 <block ref="cab6d77018231492052744a391f5eb40" category="inline-link-macro-rx"></block>。</block>
 </blocks>
