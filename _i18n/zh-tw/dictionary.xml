@@ -353,13 +353,10 @@
   <block id="666efafa7314f1d36acc1873a7effea1" category="paragraph">您需要使用AWS管理主控台來找出與Enis相關的安全性群組。</block>
   <block id="c92acc92060e36c3ae0a3a3122e468f4" category="list-text">在ONTAP AWS管理主控台開啟FSXfor S廳 檔案系統、然後按一下檔案系統ID連結。</block>
   <block id="d2d5e146dd6d2c739d48382f6d5819c9" category="inline-image-macro">AWS管理主控台的FSX檔案系統ID快照。</block>
-  <block id="cca060d5cddf22c436c0562c0973058c" category="paragraph"><block ref="cca060d5cddf22c436c0562c0973058c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5632127664c2b29ceeab7c876c04cb44" category="list-text">在*網路與安全性*索引標籤上、按一下偏好的或待命子網路的網路介面ID。</block>
   <block id="6327ad0d858ec91f26ade294f909e613" category="inline-image-macro">FSX for ONTAP SENI ID的快照。</block>
-  <block id="1e4b8ac6263ef6c244c27218023baf3d" category="paragraph"><block ref="1e4b8ac6263ef6c244c27218023baf3d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ffd35e1082660bfc05812c970b3ce90c" category="list-text">按一下網路介面表中的安全性群組或網路介面的*詳細資料*區段。</block>
   <block id="e3771f1e1acdf77c7948d3e7e2810d3c" category="inline-image-macro">FSX for ONTAP the Sof the Sof the Sof the Sof the FSof the Security Group ID（</block>
-  <block id="89730a660159734979b6ba72583ec695" category="paragraph"><block ref="89730a660159734979b6ba72583ec695" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1b3884b38c271fe13c8142e1355e4523" category="section-title">傳入規則</block>
   <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">傳輸協定</block>
   <block id="60aaf44d4b562252c04db7f98497e9aa" category="cell">連接埠</block>
@@ -542,4 +539,7 @@
   <block id="1960d6022dcb5a2b9a687d1f6cbd8931" category="cell">從Connector存取fsxadmin管理LIF、將API呼叫傳送至FSX</block>
   <block id="63b0ed0469bbbea547bdb73446ef6e8f" category="inline-link-macro">支援ONTAP 使用CLI</block>
   <block id="8e134e23e64a574b08ee8f4a104b33a7" category="list-text">目前、來自FSXfor ONTAP Sfor Sfis的SnapMirror複寫 <block ref="cab6d77018231492052744a391f5eb40" category="inline-link-macro-rx"></block>。</block>
+  <block id="74925aadd53e4f7b65df21759c37451d" category="paragraph"><block ref="74925aadd53e4f7b65df21759c37451d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f737b6b92ce7095e05c485d6d1b3acfe" category="paragraph"><block ref="f737b6b92ce7095e05c485d6d1b3acfe" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="29608e98541844ed43ec551876108d97" category="paragraph"><block ref="29608e98541844ed43ec551876108d97" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
