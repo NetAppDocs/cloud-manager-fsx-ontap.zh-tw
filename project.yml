@@ -12,9 +12,8 @@ sidebar:
   product-family:
     name: Cloud Manager
     repo: cloud-manager-family
+    sidebar_label: All Cloud Manager documentation
   entries:
-  - title: 所有Cloud Manager文件
-    url: https://docs.netapp.com/us-en/cloud-manager-family
   - title: Amazon FSX for ONTAP Sfedocs
     url: "/index.html"
   - title: 版本資訊
