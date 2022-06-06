@@ -9,10 +9,6 @@ settings:
     harmony_enabled: false
   langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr
 sidebar:
-  product-family:
-    name: Cloud Manager
-    repo: cloud-manager-family
-    sidebar_label: All Cloud Manager documentation
   entries:
   - title: Amazon FSX for ONTAP Sfedocs
     url: "/index.html"
@@ -83,3 +79,4 @@ homepage:
 product-family:
   name: Cloud Manager
   repo: cloud-manager-family
+  sidebar_label: All Cloud Manager documentation
