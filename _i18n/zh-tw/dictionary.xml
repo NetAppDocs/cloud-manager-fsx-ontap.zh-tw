@@ -144,11 +144,9 @@
   <block id="d0b2e405325c02e50ba6ff1e7a0bfdeb" category="inline-image-macro">新增FSXfor ONTAP Sfor Sfzing認證的快照</block>
   <block id="0c59eb935a218de10968d2478d3839c5" category="paragraph"><block ref="0c59eb935a218de10968d2478d3839c5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="282e8cadc54623677e7bc13447fcac29" category="list-text">提供地區與VPC資訊：</block>
-  <block id="f71590c4106e9e8e85fb4072cc1b8408" category="list-text">選取一個區域和VPC、子網路位於至少兩個可用度區域中、因此每個節點都位於專用可用度區域中。</block>
   <block id="d234e32cc579256f2dc2b1c0f46bf8ed" category="inline-link-macro">AWS安全群組</block>
   <block id="c0a56d37b9a744bb980fb63714ff853a" category="inline-link-macro">AWS彈性網路介面（ENI）</block>
   <block id="70f807aec183b4123fd9e27691b549ae" category="list-text">接受預設的安全性群組、或選取不同的安全性群組。 <block ref="35ef09e7b222c17f67a4a66af73d7196" category="inline-link-macro-rx"></block> 控制傳入和傳出流量。這些設定是由AWS管理員設定、並與相關聯 <block ref="122c50f10f9ced3dc765944ec92b3531" category="inline-link-macro-rx"></block>。</block>
-  <block id="8e21376ec8ebc45640c4648d1ea694e4" category="list-text">為每個節點選取可用度區域和子網路。</block>
   <block id="02b7327efc840726659c50bf482440ba" category="inline-image-macro">新增區域和VPC for FSX ONTAP for Sz.的快照</block>
   <block id="e856b8b85c22d45ac9df09b76538baf0" category="paragraph"><block ref="e856b8b85c22d45ac9df09b76538baf0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8acea1c4fcca87631ca127e2bc757f13" category="inline-link">AWS Transit閘道</block>
@@ -494,12 +492,10 @@
   <block id="8fad3d94a3385eeb6406613f49896cdd" category="doc">設定FSXfor ONTAP Sfor Sfor的權限</block>
   <block id="b84143bbdad7df35ec2c66cf2071f420" category="paragraph">若要建立或管理Amazon FSX for ONTAP the Sfor the Synfrole工作環境、您需要提供IAM角色的ARN、讓Cloud Manager擁有建立FSX for ONTAP the Synfrole環境所需的權限、才能將AWS認證新增至Cloud Manager。</block>
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">設定IAM角色</block>
-  <block id="d9a499196547b3d025fe2a7d3c56baa1" category="paragraph">設定IAM角色、讓Cloud Manager SaaS能夠承擔角色。</block>
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">前往目標帳戶中的IAM主控台。</block>
   <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">在「存取管理」下、按一下*「角色」&gt;「建立角色」*、然後依照步驟建立角色。</block>
   <block id="e1a3d580d5cb42904b96dc05c0e0903d" category="paragraph">請務必執行下列動作：</block>
   <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">在*信任的實體類型*下、選取* AWS帳戶*。</block>
-  <block id="7d85138efc851d16b36fe016a7d406df" category="list-text">選取*其他AWS帳戶*、然後輸入Cloud Manager SaaS的ID：952013314444.</block>
   <block id="30c558b7179a7e55ad7f3ae5ca262466" category="list-text">建立包含下列權限的原則：</block>
   <block id="e08f06cebc90d5cc269f643f2df5ab95" category="list-text">複製IAM角色的角色ARN、以便在下一步將其貼到Cloud Manager中。</block>
   <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">IAM角色現在擁有所需的權限。</block>
@@ -518,7 +514,6 @@
   <block id="3d3e910b68a6f9dc68d007376e0dae47" category="list-text"><block ref="3d3e910b68a6f9dc68d007376e0dae47" category="inline-link-rx"></block></block>
   <block id="6bccb09f2c81a00c03cd35c87a54b03f" category="inline-link">管理Cloud Manager的AWS認證資料</block>
   <block id="0f9f43c114be6c5746b95fa092ad10b2" category="list-text"><block ref="0f9f43c114be6c5746b95fa092ad10b2" category="inline-link-rx"></block></block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
   <block id="69f7f21f4fc680b59f6e889bf9547523" category="sidebar">Amazon FSX for ONTAP Sfedocs</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
@@ -542,4 +537,25 @@
   <block id="74925aadd53e4f7b65df21759c37451d" category="paragraph"><block ref="74925aadd53e4f7b65df21759c37451d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f737b6b92ce7095e05c485d6d1b3acfe" category="paragraph"><block ref="f737b6b92ce7095e05c485d6d1b3acfe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="29608e98541844ed43ec551876108d97" category="paragraph"><block ref="29608e98541844ed43ec551876108d97" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">2022年7月3日</block>
+  <block id="f0e3a414b681f7ab90a3f742f40c9365" category="list-text">您現在可以選取單一或多個可用度區域HA部署模式。</block>
+  <block id="324197c492971b6abe6108b6ed0e2722" category="inline-link-macro">建立FSX以利ONTAP 不工作環境</block>
+  <block id="28d4a8073a683a018eec6bfdec63098f" category="paragraph"><block ref="28d4a8073a683a018eec6bfdec63098f" category="inline-link-macro-rx"></block></block>
+  <block id="1d83e69fc7f9ed326713517b984b155b" category="list-text">Cloud Manager現在支援AWS GovCloud帳戶驗證。</block>
+  <block id="9c2f60af941e19d70429b4a59debeeb9" category="paragraph"><block ref="9c2f60af941e19d70429b4a59debeeb9" category="inline-link-macro-rx"></block></block>
+  <block id="f84135b2c550b8d738093a4346ac024d" category="list-text">選擇*單一可用度區域*或*多個可用度區域* HA部署模式。</block>
+  <block id="2be7f08200a1fe8660c0e3b215446b33" category="inline-image-macro">適用於單一或多個可用區域部署模式之選擇選項按鈕的快照。</block>
+  <block id="501a818c591eeaa056b0d623f83dba40" category="paragraph"><block ref="501a818c591eeaa056b0d623f83dba40" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="604034876d198af3f8d6cece2f09d984" category="list-text">選取地區和VPC。</block>
+  <block id="d7387928ac1cfa971f35a613cd81907c" category="paragraph">針對多個可用度區域、請在至少兩個可用度區域中選取子網路、使每個節點都位於專用的可用度區域中。</block>
+  <block id="32d764103d092c07b147433d048bb586" category="paragraph">設定IAM角色、讓Cloud Manager能夠承擔角色。</block>
+  <block id="97b63fa093616f832ba5318ba00447ce" category="list-text">選取*其他AWS帳戶*、然後輸入Cloud Manager的ID。</block>
+  <block id="81d51fac54904448b89f95abe2f40178" category="list-text">適用於Cloud Manager SaaS：952013314444</block>
+  <block id="68955c28b96907f1d1f5783fd01de32e" category="list-text">AWS GovCloud（美國）：</block>
+  <block id="4aaa495471a5ae62d8384762205bf782" category="inline-link-macro">Cloud Manager 原則頁面</block>
+  <block id="c8a9420eac272cc5ace307e15c1a05cc" category="paragraph">從檢視Connector部署原則 <block ref="890ffa37b9e517890ec4308e2dc353ce" category="inline-link-macro-rx"></block>。</block>
+  <block id="a7cf2ac8ff4dd10d1e304f0abd7fe0bd" category="list-text">如果您使用AWS GovCloud（US）帳戶、請勾選*我使用AWS GovCloud（US）帳戶*。</block>
+  <block id="045e30d9d567e729274d9202eee4ff62" category="inline-image-macro">「GovCloud（US）帳戶」核取方塊的快照。</block>
+  <block id="c03a6ecd27b7a5ea40ee52d99c7a247a" category="paragraph"><block ref="c03a6ecd27b7a5ea40ee52d99c7a247a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a9891de406800116bd9cb8226be9beb9" category="list-text">使用AWS GovCloud驗證將會停用SaaS平台。這是對您帳戶的永久變更、無法復原。</block>
 </blocks>

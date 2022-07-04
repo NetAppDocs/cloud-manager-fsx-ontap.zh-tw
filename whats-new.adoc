@@ -18,6 +18,20 @@ summary: 瞭解Amazon FSX for ONTAP Sf2的新功能。
 
 
 
+== 2022年7月3日
+
+* 您現在可以選取單一或多個可用度區域HA部署模式。
++
+link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-ontap-working-environment["建立FSX以利ONTAP 不工作環境"]
+
+* Cloud Manager現在支援AWS GovCloud帳戶驗證。
++
+link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/requirements/task-setting-up-permissions-fsx.html#set-up-the-iam-role["設定IAM角色"]
+
+
+
+
+
 == 2022年2月27日
 
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: use/task-creating-fsx-working-environment.html 
-keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment 
+keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones 
 summary: Cloud Manager可讓您建立FSXfor ONTAP Sfor Sfor Sfor Sfor Sfor Sfor Sfor工作環境、以新增磁碟區並管理其他資料服務。 
 ---
 = 建立及管理Amazon FSX以利ONTAP 實現不工作環境
@@ -60,13 +60,21 @@ image:screenshot_add_fsx_credentials.png["新增FSXfor ONTAP Sfor Sfzing認證�
 
 . 提供地區與VPC資訊：
 +
-.. 選取一個區域和VPC、子網路位於至少兩個可用度區域中、因此每個節點都位於專用可用度區域中。
-.. 接受預設的安全性群組、或選取不同的安全性群組。 link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules.html["AWS安全群組"^] 控制傳入和傳出流量。這些設定是由AWS管理員設定、並與相關聯 link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS彈性網路介面（ENI）"^]。
-.. 為每個節點選取可用度區域和子網路。
-.. 單擊 * 下一步 * 。
+.. 選擇*單一可用度區域*或*多個可用度區域* HA部署模式。
 +
+image:screenshot-ha-deployment-models.png["適用於單一或多個可用區域部署模式之選擇選項按鈕的快照。"]
+
+.. 選取地區和VPC。
++
+[NOTE]
+====
+針對多個可用度區域、請在至少兩個可用度區域中選取子網路、使每個節點都位於專用的可用度區域中。
+
 image:screenshot_add_fsx_region.png["新增區域和VPC for FSX ONTAP for Sz.的快照"]
 
+====
+.. 接受預設的安全性群組、或選取不同的安全性群組。 link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules.html["AWS安全群組"^] 控制傳入和傳出流量。這些設定是由AWS管理員設定、並與相關聯 link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS彈性網路介面（ENI）"^]。
+.. 單擊 * 下一步 * 。
 
 
 . 將_CIDR range保留空白、然後按一下* Next*自動設定可用範圍。您也可以選擇使用 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-transit-gateway.html["AWS Transit閘道"^] 手動設定範圍。
@@ -124,13 +132,12 @@ image:screenshot_fsx_working_environment_discover.png["探索Amazon FSX for ONTA
 
 . 選取現有認證或建立新認證。單擊 * 下一步 * 。
 . 選取您要新增的AWS區域和工作環境。
-+
-image:screenshot_fsx_working_environment_select.png["選取AWS區域和工作環境的快照"]
-
 . 按一下「 * 新增 * 」。
 
 
 Cloud Manager會顯示您探索到的FSX ONTAP for Sfor Sficity檔案系統。
+
+image:screenshot_fsx_working_environment_select.png["選取AWS區域和工作環境的快照"]
 
 
 

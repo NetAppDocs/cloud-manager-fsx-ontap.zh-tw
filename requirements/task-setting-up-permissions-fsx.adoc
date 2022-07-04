@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: requirements/task-setting-up-permissions-fsx.html 
-keywords: fsx for ontap, iam, user role, permissions 
+keywords: fsx for ontap, iam, user role, permissions, aws govcloud, govcloud, credentials 
 summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工作環境中、您需要使用AWS存取金鑰和機密金鑰、才能讓IAM使用者角色具備FSX for ONTAP Sfor FIf各項 權限。 
 ---
 = 設定FSXfor ONTAP Sfor Sfor的權限
@@ -20,7 +20,7 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
 
 == 設定IAM角色
 
-設定IAM角色、讓Cloud Manager SaaS能夠承擔角色。
+設定IAM角色、讓Cloud Manager能夠承擔角色。
 
 .步驟
 . 前往目標帳戶中的IAM主控台。
@@ -30,7 +30,12 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
 
 +
 ** 在*信任的實體類型*下、選取* AWS帳戶*。
-** 選取*其他AWS帳戶*、然後輸入Cloud Manager SaaS的ID：952013314444.
+** 選取*其他AWS帳戶*、然後輸入Cloud Manager的ID。
++
+*** 適用於Cloud Manager SaaS：952013314444
+*** AWS GovCloud（美國）：
+
+
 ** 建立包含下列權限的原則：
 +
 [source, json]
@@ -54,6 +59,9 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
     ]
 }
 ----
++
+從檢視Connector部署原則 link:https://mysupport.netapp.com/site/info/cloud-manager-policies["Cloud Manager 原則頁面"]。
+
 
 
 . 複製IAM角色的角色ARN、以便在下一步將其貼到Cloud Manager中。
@@ -78,6 +86,17 @@ image:screenshot_settings_icon.gif["顯示 Cloud Manager 主控台右上角「�
 +
 .. *認證資料位置*：選取* Amazon Web Services > Cloud Manager*。
 .. *定義認證資料*：提供IAM角色的ARN（Amazon資源名稱）。
++
+[NOTE]
+====
+*** 如果您使用AWS GovCloud（US）帳戶、請勾選*我使用AWS GovCloud（US）帳戶*。
++
+image:screenshot-govcloud-checkbox.png["「GovCloud（US）帳戶」核取方塊的快照。"]
+
+*** 使用AWS GovCloud驗證將會停用SaaS平台。這是對您帳戶的永久變更、無法復原。
+
+
+====
 .. *審查*：確認新認證資料的詳細資料、然後按一下*新增*。
 
 
